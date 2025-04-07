@@ -1,0 +1,49 @@
+[
+  {
+    "id": "_meta",
+    "logo": "https://release.botc.app/wc25/witchhunt/logo.webp",
+    "name": "Witch Hunt (Garden of Djinn)",
+    "author": "Nick B",
+    "hideTitle": true,
+    "background": "https://release.botc.app/wc25/background.webp",
+    "bootlegger": [
+      "All Minions are Witches. Nominated Demons can not move tonight."
+    ],
+    "isOfficial": false
+  },
+  { "id": "steward" },
+  { "id": "noble" },
+  { "id": "librarian" },
+  { "id": "shugenja" },
+  { "id": "balloonist" },
+  { "id": "general" },
+  { "id": "villageidiot" },
+  { "id": "fortuneteller" },
+  { "id": "towncrier" },
+  { "id": "lycanthrope" },
+  { "id": "alsaahir" },
+  { "id": "seamstress" },
+  { "id": "huntsman" },
+  { "id": "drunk" },
+  { "id": "recluse" },
+  { "id": "damsel" },
+  { "id": "snitch" },
+  {
+    "id": "witchhuntwitch",
+    "name": "Witch",
+    "team": "minion",
+    "image": [
+      "https://release.botc.app/wc25/witchhunt/witch_e.webp",
+      "https://release.botc.app/wc25/witchhunt/witch_g.webp"
+    ],
+    "flavor": "Three drops of goat's blood. A lock of hair, torn in anger. The name is spoken, the shadow cast. Walk left foot first down that brambled path, and don't look back.",
+    "ability": "Każdej nocy wybierz gracza: Jeśli jutro nominuje - umrze. Jeśli żyje tylko 3 graczy, tracisz tę umiejętność.",
+    "special": [{ "name": "bag-duplicate", "type": "selection" }],
+    "reminders": ["Cursed"],
+    "firstNight": 36,
+    "otherNight": 23,
+    "firstNightReminder": "The Witch chooses a player. :reminder:",
+    "otherNightReminder": "The Witch chooses a player. :reminder:"
+  },
+  { "id": "lilmonsta" }
+]

@@ -1,0 +1,25 @@
+Custom Djinn Rule
+Seat 7 remains empty. It's choices are arbitrary. Once per game the storyteller may speak on it's behalf.
+
+How to Run
+Seat 7 runs for the most part like any other Clocktower game. One seat remains open and tokens are passed out as usual. Each night the storyteller determines what actions the seat takes following its role in night order. Once per game the storyteller may choose to speak for the seat. This can be public or private and does not need to be the truth, as an evil seat may want to bluff to help their team win. A storyteller may also choose to not use this ability if they think it will benefit the seat's team to stay silent. This ability can also be used to nominate and accuse another player.
+
+Advice on Speaking for the Seat
+A storyteller only has one opportunity to influence the game using the seat's voice so it is advised to be very careful when you speak and what you say. A seat who speaks on day 1 may have game solving info later. It is also encouraged to get creative with how you choose to use the seat's voice. The goal is not to save the seat but to win the game for the seat's team.
+
+
+
+src: https://botc-scripts.azurewebsites.net/script/6687/1.0.0
+
+
+------- 
+Tłumaczenie by gógle:
+
+Niestandardowa zasada Djinna
+Miejsce 7 pozostaje puste. Jego wybory są dowolne. Raz na grę gawędziarz może mówić w jego imieniu.
+
+Jak prowadzić
+Miejsce 7 działa w większości jak każda inna gra Clocktower. Jedno miejsce pozostaje wolne, a żetony są rozdawane jak zwykle. Każdej nocy gawędziarz decyduje, jakie działania podejmuje Miejsce_7 zgodnie z jego rolą w kolejności nocnej. Raz na grę gawędziarz może zdecydować się mówić w imieniu miejsca. Może to być publiczne lub prywatne i nie musi być prawdą, ponieważ złe miejsce może chcieć blefować, aby pomóc swojej drużynie wygrać. Gawędziarz może również zdecydować się nie używać tej umiejętności, jeśli uważa, że ​​milczenie przyniesie korzyści drużynie miejsca. Ta umiejętność może być również używana do nominowania i oskarżania innego gracza.
+
+Porady dotyczące mówienia w imieniu miejsca
+Gawędziarz ma tylko jedną okazję, aby wpłynąć na grę, używając głosu miejsca, dlatego zaleca się, aby zachować szczególną ostrożność podczas mówienia i tego, co się mówi. Osoba, która mówi w dniu 1, może później otrzymać informacje o rozwiązywaniu gry. Zachęca się również do kreatywnego korzystania z głosu osoby, która mówi. Celem nie jest uratowanie osoby, ale wygranie gry dla drużyny osoby, która mówi.

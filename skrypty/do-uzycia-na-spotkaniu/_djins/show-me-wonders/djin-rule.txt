@@ -1,0 +1,13 @@
+Djinn rule: Each night*, all players secretly choose in advance to live or die if they were to be chosen by the Al-Hadikhia. Al-Hadikhia choices are not announced.
+
+Clarification: Starting from the second night onwards, at the beginning of each night, all players must secretly indicate to the Storyteller whether they would choose to live or die if selected by the Al-Hadikhia. This can be via private message, private conversation, Organ Grinderesque hidden vote, or other secretive means. If an Al-Hadikhia is in play, that player's choices are not announced, and chosen players abide by their decision from the start of that night instead of deciding after the Al-Hadikhia acts.
+
+src: https://botcscripts.com/script/6779/1.0.1
+
+
+----
+tłumaczenie by google:
+
+Zasada Dżina: Każdej nocy* wszyscy gracze potajemnie wybierają z góry, czy chcą żyć, czy umrzeć, jeśli zostaną wybrani przez Al-Hadikhia. Wybory Al-Hadikhia nie są ogłaszane.
+
+Wyjaśnienie: Począwszy od drugiej nocy, na początku każdej nocy, wszyscy gracze muszą potajemnie wskazać Narratorowi, czy wybraliby życie, czy śmierć, gdyby zostali wybrani przez Al-Hadikhia. Może to nastąpić za pośrednictwem prywatnej wiadomości, prywatnej rozmowy, ukrytego głosowania w stylu Organ Grinderesque lub innych tajnych środków. Jeśli w grze jest Al-Hadikhia, wybory tego gracza nie są ogłaszane, a wybrani gracze przestrzegają swojej decyzji od początku tej nocy, zamiast decydować po działaniach Al-Hadikhia.

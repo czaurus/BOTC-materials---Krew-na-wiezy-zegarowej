@@ -1,0 +1,11 @@
+
+Djinn rule: All minions are Witches. Nominated demons cannot move tonight.
+
+-------
+Tłumaczenie gógle:
+
+Zasada Dżina: Wszystkie sługusy są Wiedźmami. Nominowane demony nie mogą się ruszać tej nocy.
+
+src:
+https://botcscripts.com/script/6407/2.0.0
+https://beardytas.com/garden-of-djinn/witch-hunt/

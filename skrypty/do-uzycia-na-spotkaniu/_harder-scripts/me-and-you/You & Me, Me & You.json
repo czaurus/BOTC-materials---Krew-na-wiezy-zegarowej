@@ -1,1 +1,27 @@
-[{"id": "_meta", "name": "You & Me, Me & You", "author": "TPHG"}, {"id": "shugenja"}, {"id": "pixie"}, {"id": "highpriestess"}, {"id": "general"}, {"id": "alsaahir"}, {"id": "seamstress"}, {"id": "philosopher"}, {"id": "huntsman"}, {"id": "slayer"}, {"id": "fisherman"}, {"id": "alchemist"}, {"id": "cannibal"}, {"id": "amnesiac"}, {"id": "mayor"}, {"id": "ogre"}, {"id": "drunk"}, {"id": "saint"}, {"id": "damsel"}, {"id": "heretic"}, {"id": "eviltwin"}, {"id": "lilmonsta"}, {"id": "bootlegger"}, {"id": "gardener"}, {"id": "sentinel"}]
+[
+  { "id": "_meta", "name": "You & Me, Me & You", "author": "TPHG" },
+  { "id": "shugenja" },
+  { "id": "pixie" },
+  { "id": "highpriestess" },
+  { "id": "general" },
+  { "id": "alsaahir" },
+  { "id": "seamstress" },
+  { "id": "philosopher" },
+  { "id": "huntsman" },
+  { "id": "slayer" },
+  { "id": "fisherman" },
+  { "id": "alchemist" },
+  { "id": "cannibal" },
+  { "id": "amnesiac" },
+  { "id": "mayor" },
+  { "id": "ogre" },
+  { "id": "drunk" },
+  { "id": "saint" },
+  { "id": "damsel" },
+  { "id": "heretic" },
+  { "id": "eviltwin" },
+  { "id": "lilmonsta" },
+  { "id": "bootlegger" },
+  { "id": "gardener" },
+  { "id": "sentinel" }
+]
