@@ -9,7 +9,9 @@ A storyteller only has one opportunity to influence the game using the seat's vo
 
 
 
-src: https://botc-scripts.azurewebsites.net/script/6687/1.0.0
+src:
+https://botc-scripts.azurewebsites.net/script/6687/1.0.0
+https://beardytas.com/garden-of-djinn/the-ballad-of-seat-7/
 
 
 ------- 
