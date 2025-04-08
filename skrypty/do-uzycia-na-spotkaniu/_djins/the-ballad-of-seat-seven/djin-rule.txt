@@ -1,3 +1,4 @@
+
 Custom Djinn Rule
 Seat 7 remains empty. It's choices are arbitrary. Once per game the storyteller may speak on it's behalf.
 
@@ -7,21 +8,47 @@ Seat 7 runs for the most part like any other Clocktower game. One seat remains o
 Advice on Speaking for the Seat
 A storyteller only has one opportunity to influence the game using the seat's voice so it is advised to be very careful when you speak and what you say. A seat who speaks on day 1 may have game solving info later. It is also encouraged to get creative with how you choose to use the seat's voice. The goal is not to save the seat but to win the game for the seat's team.
 
+Round One Changes
+When The Ballad of Seat 7 was conceived, there was no thought of the script making it this far. Because of this there were quite a few interactions, while funny, did not make for a very balanced game. With this version of the script I wanted to focus on fixing those interactions as well as simplifying the script to allow for a more balanced game on any player count.
+
+Fang Gu → Imp Imp maintains the potential for demon movement while also helping Seat 7 to function better on smaller player counts as it was originally intended
+
+Pit Hag → Harpy Harpy was chosen to minimize Virgin and Damsel shenanigans as well as provide the evil team with an opportunity to recover social power should the seat draw an evil token
+
+Soldier → Monk This change was made to reduce the possibility of having an immortal player while also allowing town to combat demon poison
+
+Washerwoman → Shugenja As much as I love Washerwoman here, Shugenja diversifies the type of information available as well as reduces the amount of roles that can be confirmed if a Boffin is proven not to be in play
+
+Fisherman → Oracle Fisherman seemed a bit redundant as the Seat is already quite fisherman-like by nature. Oracle also synergizes much better with Vigor on script
+
+Barber has been removed For the afore-mentioned Pit Hag and Damsel shenanigans. You know who you are. You know what you did
 
 
-src:
-https://botc-scripts.azurewebsites.net/script/6687/1.0.0
-https://beardytas.com/garden-of-djinn/the-ballad-of-seat-7/
+https://botc-scripts.azurewebsites.net/script/6687
 
-
-------- 
+-------- 
 Tłumaczenie by gógle:
 
 Niestandardowa zasada Djinna
 Miejsce 7 pozostaje puste. Jego wybory są dowolne. Raz na grę gawędziarz może mówić w jego imieniu.
 
 Jak prowadzić
-Miejsce 7 działa w większości jak każda inna gra Clocktower. Jedno miejsce pozostaje wolne, a żetony są rozdawane jak zwykle. Każdej nocy gawędziarz decyduje, jakie działania podejmuje Miejsce_7 zgodnie z jego rolą w kolejności nocnej. Raz na grę gawędziarz może zdecydować się mówić w imieniu miejsca. Może to być publiczne lub prywatne i nie musi być prawdą, ponieważ złe miejsce może chcieć blefować, aby pomóc swojej drużynie wygrać. Gawędziarz może również zdecydować się nie używać tej umiejętności, jeśli uważa, że ​​milczenie przyniesie korzyści drużynie miejsca. Ta umiejętność może być również używana do nominowania i oskarżania innego gracza.
+Miejsce 7 działa w większości jak każda inna gra Clocktower. Jedno miejsce pozostaje wolne, a żetony są rozdawane jak zwykle. Każdej nocy gawędziarz decyduje, jakie działania podejmuje miejsce zgodnie z jego rolą w kolejności nocnej. Raz na grę gawędziarz może zdecydować się mówić w imieniu miejsca. Może to być publiczne lub prywatne i nie musi być prawdą, ponieważ złe miejsce może chcieć blefować, aby pomóc swojej drużynie wygrać. Gawędziarz może również zdecydować się nie używać tej umiejętności, jeśli uważa, że ​​milczenie przyniesie korzyści drużynie miejsca. Ta umiejętność może być również używana do nominowania i oskarżania innego gracza.
 
 Porady dotyczące mówienia w imieniu miejsca
 Gawędziarz ma tylko jedną okazję, aby wpłynąć na grę, używając głosu miejsca, dlatego zaleca się, aby zachować szczególną ostrożność podczas mówienia i tego, co się mówi. Osoba, która mówi w dniu 1, może później otrzymać informacje o rozwiązywaniu gry. Zachęca się również do kreatywnego korzystania z głosu osoby, która mówi. Celem nie jest uratowanie osoby, ale wygranie gry dla drużyny osoby, która mówi.
+
+Zmiany w pierwszej rundzie
+Kiedy powstawała Ballada osoby, która mówi w dniu 7, nie myślano o tym, że scenariusz zajdzie tak daleko. Z tego powodu było sporo interakcji, które, choć zabawne, nie tworzyły zbyt zrównoważonej gry. W tej wersji skryptu chciałem skupić się na naprawieniu tych interakcji, a także na uproszczeniu skryptu, aby umożliwić bardziej zrównoważoną grę dla dowolnej liczby graczy.
+
+Fang Gu → Imp Imp utrzymuje potencjał ruchu demonów, jednocześnie pomagając Seat 7 lepiej funkcjonować przy mniejszej liczbie graczy, zgodnie z pierwotnym zamysłem
+
+Pit Hag → Harpia Harpia została wybrana, aby zminimalizować intrygi Dziewic i Damsel, a także zapewnić złej drużynie możliwość odzyskania władzy społecznej, jeśli Seat wylosuje żeton zła
+
+Żołnierz → Mnich Ta zmiana została wprowadzona, aby zmniejszyć prawdopodobieństwo posiadania nieśmiertelnego gracza, a także umożliwić miastu walkę z trucizną demonów
+
+Pralka → Shugenja Tak bardzo jak uwielbiam Washerwoman, Shugenja różnicuje rodzaj dostępnych informacji, a także zmniejsza liczbę ról, które można potwierdzić, jeśli okaże się, że Boffin nie jest w grze
+
+Rybak → Wyrocznia Rybak wydawał się trochę zbędny, ponieważ Seat jest już z natury dość podobny do rybaka. Oracle również lepiej współdziała z Vigor w skrypcie
+
+Barber został usunięty za wspomniane wcześniej intrygi Pit Hag i Damsel. Wiesz, kim jesteś. Wiesz, co zrobiłeś
