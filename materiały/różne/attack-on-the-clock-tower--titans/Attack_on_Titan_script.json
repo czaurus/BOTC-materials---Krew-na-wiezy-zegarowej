@@ -1,0 +1,649 @@
+[
+    {
+        "id": "_meta",
+        "name": "Attack on Clocktower",
+        "author": "Besjbo",
+        "logo": "https://i.ibb.co/Pgx8CV3/attackonclocktower.png",
+        "bootlegger": [
+            "Wszelkie zamiany pozycji graczy oraz rozstawienia tytanów, które mają miejsce w nocy są dokonywane natychmiast, ale na grymuarze są pokazywane na początku dnia (za wyjątkiem podmian, które się zniwelowały)",
+            "Tytani, w momencie wejścia muszą sąsiadować z co najmniej jednym żywym graczem (wyjątkiem jest działanie zdolności the Beast) i dodatkowo jeśli możliwe jest wiele miejsc wejścia to wchodzą w miejsce wybrane przez Storytellera.",
+            "Tytani nie mogą zabić demona i royal blood, ale mogą ich obrać za cel i zginąć, jeśli demon wybrał, żeby walczyć. Miniony nadal mogą zostać zabite",
+            "Dezerter powoduje, że w przypadku próby walki, gracz może ponieść porażkę, gdy walczy. Oznacza to, że jeśli taki gracz zostanie zaatakowany przez tytana to nawet jeśli postanowi walczyć tytan nie umiera. Ponadto taki gracz nie jest liczony jako gracz którzy walczy, aczkolwiek mają dodatkowo inną zdolność Townsfolka to nadal nie może być ona użyta",
+            "Nikt nie może grać jako podróżnik, gdyż podróznicy są w całości sterowani przez storytellera, a ich miejsca znikają po śmierci.",
+            "W trakcie tury tytanów ataki, a potem ruchy są wykonywane jednocześnie (w przpyadku Commandera oznacza to ochronę wszystkich walczących, nawet jeśli on umiera)"
+        ],
+        "firstNight": [
+            "dusk",
+            "minioninfo",
+            "demoninfo",
+            "royal blood",
+            "war hammer titan",
+            "fight",
+            "trainer",
+            "garrison",
+            "jaw titan",
+            "armored titan",
+            "colossal titan",
+            "female titan",
+            "military police",
+            "wall priest",
+            "dawn"
+        ],
+        "otherNight": [
+            "dusk",
+            "soldier",
+            "cart titan",
+            "war hammer titan",
+            "fight",
+            "omni-directional",
+            "noble_AoT",
+            "scout",
+            "captain",
+            "vanguard",
+            "attack titan",
+            "garrison",
+            "wall engineer",
+            "Titan",
+            "jaw titan",
+            "beast titan",
+            "armored titan",
+            "colossal titan",
+            "female titan",
+            "military police",
+            "wall priest",
+            "recruit",
+            "serum",
+            "dawn"
+        ]
+    },
+    {
+        "id": "trainer",
+        "image": "https://i.ibb.co/ZT1nSNS/trainer.png",
+        "edition": "custom",
+        "firstNightReminder": "Show character, of the one from good players who chose to fight, for the Trainer :reminder:.",
+        "otherNightReminder": "",
+        "reminders": [
+            "Seen"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Trainer",
+        "team": "townsfolk",
+        "flavor": "Average men aren’t able to accomplish anything. Special people do exist. It’s just that… I wasn’t one of them.",
+        "ability": "You start knowing a good character that fought the first night."
+    },
+    {
+        "id": "scout",
+        "image": "https://i.ibb.co/Fg4DcNs/scout.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "Scout points to a titan. If both its alive neighbors chose to fight, the Titan dies :reminder:",
+        "reminders": [
+            "Dead"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Scout",
+        "team": "townsfolk",
+        "flavor": "For humanity’s sake, dedicate your hearts",
+        "ability": "Each night*, choose a Titan. If both its alive neighbors are fighting, kill it."
+    },
+    {
+        "id": "garrison",
+        "image": "https://i.ibb.co/JkdpsR7/garrison.png",
+        "edition": "custom",
+        "firstNightReminder": "The Garrison chooses 3 players. If they are all chose to fight this night titans cannot be moved or entered next to these players :reminder:",
+        "otherNightReminder": "The Garrison chooses 3 players. If they are all chose to fight this night titans cannot be moved or entered next to these players :reminder:",
+        "reminders": [
+            "Safe",
+            "Safe",
+            "Safe"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Garrison",
+        "team": "townsfolk",
+        "flavor": "ear not, your lordship. In a real battle against the Titans, it is unnecessary for the commander to throw the match",
+        "ability": "Each night, choose 3 players. If they are all fighting, Titans cannot move or enter next to them."
+    },
+    {
+        "id": "military police",
+        "image": "https://i.ibb.co/3BPMjSs/militarypolice.png",
+        "edition": "custom",
+        "firstNightReminder": "The Military Police chooses a player. If the player is evil put a titan next to the Military Police :reminder:",
+        "otherNightReminder": "The Military Police chooses a player. If the player is evil put a titan next to the Military Police :reminder:",
+        "reminders": [
+            "Titan Enters"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Military Police",
+        "team": "townsfolk",
+        "flavor": "Titans? It’s not my place to think about that. All I do is carry out the job given to me.",
+        "ability": "Each night, choose a player. If they are Evil, a Titan enters next to you."
+    },
+    {
+        "id": "captain",
+        "image": "https://i.ibb.co/BTkBbnB/captain.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "If the captain fought the last night :reminder:, kill all Titans that neighbor you :reminder:",
+        "reminders": [
+            "Active",
+            "Dead",
+            "Dead"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Captain",
+        "team": "townsfolk",
+        "flavor": "No casualties! Don’t you dare die!",
+        "ability": "Each night*, if you fought last night, kill all Titans that neighbor you."
+    },
+    {
+        "id": "vanguard",
+        "image": "https://i.ibb.co/KFqSPjP/vanguard.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "If the Vanguard has not used his ability he can choose a Titan. If the Vanguard choose a Titan, kill both of them and Titans cannot enter tonight :reminder: :reminder: :reminder:",
+        "reminders": [
+            "Dead",
+            "No Titans Enter",
+            "Used ability"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Vanguard",
+        "team": "townsfolk",
+        "flavor": "f we humans go extinct, it won’t be because we were eaten by Titans. It’ll be because we killed ourselves off! We cannot afford to die any further inside. I kindly ask of you! Please die here!",
+        "ability": "Once per game at night*, choose a Titan. You both die, and no new Titans enter tonight."
+    },
+    {
+        "id": "recruit",
+        "image": "https://i.ibb.co/RYgSxWV/recruit.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "The Recruit chooses a Titan. Move it to neighbor as many alive Good players as possible :reminder:.",
+        "reminders": [
+            "Lured"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Recruit",
+        "team": "townsfolk",
+        "flavor": "It’s us who give meaning to our comrade’s lives! We die trusting the living who follow to find meaning in our lives!",
+        "ability": "Each night*, choose a Titan. It moves to neighbor as many alive Good players as possible."
+    },
+    {
+        "id": "wall priest",
+        "image": "https://i.ibb.co/KsFZcyn/wallpriest.png",
+        "edition": "custom",
+        "firstNightReminder": "Show the Wall Priest 3 in-play characters :reminder:. Wake the demon and show him Wall Priest token. The demon can guess 3 characters which Wall Priest have got. For each guessed enter a Titan next to guessed characters :reminder:. If the Demon has not made a choice, place the marker 'Demon can choose' :reminder:",
+        "otherNightReminder": "Wake the demon if it has not used the ability. For each correct guess enter a Titan next to guessed characters :reminder:",
+        "reminders": [
+            "Known",
+            "Known",
+            "Known",
+            "Demon Guessed",
+            "Demon Guessed",
+            "Demon Guessed",
+            "Demon Can Choose"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Wall Priest",
+        "team": "townsfolk",
+        "flavor": "You have every right to be angry. But we did not stay silent out of malice! I do not cling to my own life as if it is something precious! I will prove that to you",
+        "ability": "You start knowing 3 in-play characters. The Demon starts with 'Once per game at night, guess which characters the Wall Priest knows. A Titan enters next to each character you guess correctly.'"
+    },
+    {
+        "id": "wall engineer",
+        "image": "https://i.ibb.co/qxf6PdS/wallengineer.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "If a Townsfolk was executed today place 'Wall Built' marker :reminder:. From now on titans cannot cross 'line' between the Townsfolk and Wall Engineer (even if swapped).",
+        "reminders": [
+            "Wall Built",
+            "Wall Built",
+            "Wall Built",
+            "Wall Built",
+            "Wall Built",
+            "Wall Built",
+            "Wall Built",
+            "Wall Built"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Wall Engineer",
+        "team": "townsfolk",
+        "flavor": "The surviving humans built three walls, Wall Maria, Wall Rose, and Wall Sina",
+        "ability": "Each night*, if a Townsfolk was executed today, build a wall between you and them. Titans cannot move past your walls."
+    },
+    {
+        "id": "omni-directional",
+        "image": "https://i.ibb.co/Qf1RD7y/omnidirectional.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "The Omni-Directional chooses two alive players. Swap their seats :reminder:",
+        "reminders": [
+            "Swap",
+            "Swap"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Omni-Directional",
+        "team": "townsfolk",
+        "flavor": "Those incapable of staying upright aren’t suited to even be used as decoys!",
+        "ability": "Each night*, you may choose 2 alive players: they swap seats."
+    },
+    {
+        "id": "commander",
+        "image": "https://i.ibb.co/726fTq3/commander.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Commander",
+        "team": "townsfolk",
+        "flavor": "My soldiers, rage! My soldiers, scream! My soldiers, FIGHT!",
+        "ability": "Good players who fight cannot be attacked by Titans."
+    },
+    {
+        "id": "serum",
+        "image": "https://i.ibb.co/HCr4YNT/serum.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "If the Serum has not used its ability it can choose a dead player :reminder:. If a minion is dead the chosen player resurrects and becomes the character of a dead Minion :reminder:",
+        "reminders": [
+            "Alive",
+            "No Ability"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Serum",
+        "team": "townsfolk",
+        "flavor": "I’m sorry… I wish there was more time to explain…",
+        "ability": "Once per game at night*, choose a dead player. If a Minion is dead, the chosen player resurrects and becomes the character of a dead Minion."
+    },
+    {
+        "id": "attack titan",
+        "image": "https://i.ibb.co/CBgsNZD/attack.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "If the Attack has not used its ability it can choose one player :reminder:. If this player is Royal Blood kill all Titans :reminder:",
+        "reminders": [
+            "No Ability",
+            "Dead",
+            "Dead",
+            "Dead",
+            "Dead",
+            "Dead",
+            "Dead"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": true,
+        "name": "The Attack",
+        "team": "townsfolk",
+        "flavor": "I’ll kill them all! I’ll wipe every last one of them… off the face of this earth!",
+        "ability": "Once per game at night*, choose a player. If they are the Royal Blood, all Titans die. [+ Royal Blood]"
+    },
+    {
+        "id": "deserter",
+        "image": "https://i.ibb.co/wJnGKS6/deserter.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+        ],
+        "remindersGlobal": [
+            "Is the Deserter"
+        ],
+        "setup": false,
+        "name": "Deserter",
+        "team": "outsider",
+        "flavor": "No! Let go of me! I won’t go back there! Go ahead, execute me, it’s a hundred times better than being eaten!",
+        "ability": "You do not know you are the Deserter. You think you are a Townsfolk and have their ability, but if you try to fight, you fail.",
+        "special": [
+            {
+                "name": "bag-disabled",
+                "type": "selection"
+            },
+            {
+                "name": "replace-character",
+                "type": "reveal"
+            }
+        ]
+    },
+    {
+        "id": "noble_AoT",
+        "image": "https://i.ibb.co/j5fLVb6/noble.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "If a Titan neighbours the alive Noble you might swap his seat with another player :reminder:. If the Noble was executed in the last day, enter a Titan",
+        "reminders": [
+            "Swap",
+            "Swap",
+            "Titan Enters"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Noble",
+        "team": "outsider",
+        "flavor": "They are expendable! Let them die! That’s their duty, isn’t it?",
+        "ability": "Each night, if a Titan neighbors you, you might swap seats with another player (Storyteller decides). If you are executed, a Titan enters next dawn."
+    },
+    {
+        "id": "Soldier/Warrior",
+        "image": "https://i.ibb.co/ckrHJLS/soldier.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "If during the previous day there were 5 or more players alive and then the Demon dies the 1st time :reminder:, wake the Soldier and show 'You are', then evil demon card (the same as for the dead demon)",
+        "reminders": [
+            "is the Demon"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Soldier",
+        "team": "outsider",
+        "flavor": "I don’t know what’s right anymore. But the only choice for me now is to face the consequences of my actions… and as a Warrior, fulfill my duty to the bitter end.",
+        "ability": "If there are 5 or more players alive & the first time when the Demon dies, you become the Evil Demon."
+    },
+    {
+        "id": "royal blood",
+        "image": "https://i.ibb.co/BKpnzYp/royalblood.png",
+        "edition": "custom",
+        "firstNightReminder": "Show the Royal Blood one Townsfolk character which is not in play (not from the Demon's bluffs)",
+        "otherNightReminder": "",
+        "reminders": [
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Royal Blood",
+        "team": "outsider",
+        "flavor": "Titans… they never should have existed in the first place. I will accept the responsibility of righting this wrong. Only… until the day that this retribution comes, I want to live inside the Walls. I want to enjoy this brief paradise, this world without conflict.",
+        "ability": "Titans cannot kill you, and you cannot fight. You got one Townsfolk character which is not in play (not from Demon's bluffs)"
+    },
+    {
+        "id": "cart titan",
+        "image": [
+            "https://i.ibb.co/3p5ghB4/cart.png",
+            "https://www.bloodstar.xyz/p/Hetera/atack/thecart_atack.png"
+        ],
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "The Cart may choose two players. If they were chosen swap them and during the night all abilities which target one player target another player (excluding Titan attack) :reminder: :reminder:",
+        "reminders": [
+            "Swap",
+            "Swap",
+            "Change target",
+            "Change target"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "The Cart",
+        "team": "minion",
+        "flavor": "…Why are you down there?!” “I guess it just feels more natural to me.",
+        "ability": "Each night*, you may choose 2 alive players: they swap seats. Any ability that would target one player tonight targets the other instead."
+    },
+    {
+        "id": "jaw titan",
+        "image": [
+            "https://i.ibb.co/b57MTry/jaw.png",
+            "https://www.bloodstar.xyz/p/Hetera/atack/thejaw_atack.png"
+        ],
+        "edition": "custom",
+        "firstNightReminder": "The Jaw chooses a player. If it is a Townsfolk and it fights a Titan enters next to it :reminder:.",
+        "otherNightReminder": "The Jaw chooses a player. If it is a Townsfolk and it fights a Titan enters next to it :reminder:.",
+        "reminders": [
+            "Titan Enters"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "The Jaw",
+        "team": "minion",
+        "flavor": "The Jaw Titan is an assault unit. Its small size makes it the swiftest of all. Its powerful claws and jaws can crush just about anything",
+        "ability": "Each night, choose a player: if they are Townsfolk and fighting, a Titan enters next to them."
+    },
+    {
+        "id": "war hammer titan",
+        "image": [
+            "https://i.ibb.co/xz4nyxm/warhammer.png",
+            "https://www.bloodstar.xyz/p/Hetera/atack/thewarhammer_atack.png"
+        ],
+        "edition": "custom",
+        "firstNightReminder": "The War Hammer chooses a player. That player get an ability of alive Outsider and that Outsider's ability malfunction :reminder: :reminder:.",
+        "otherNightReminder": "The War Hammer chooses a player. That player get an ability of alive Outsider and that Outsider's ability malfunction :reminder: :reminder:.",
+        "reminders": [
+            "Copied",
+            "Gained"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": true,
+        "name": "The War Hammer",
+        "team": "minion",
+        "flavor": "Usurper. Do you have any last words?",
+        "ability": "Each night, choose a player: until dusk, they gain an alive Outsider’s ability and that Outsider malfunctions. [+1 Outsider]"
+    },
+    {
+        "id": "founding titan",
+        "image": [
+            "https://i.ibb.co/gFKNsY3/founding.png",
+            "https://www.bloodstar.xyz/p/Hetera/atack/thefounding_atack.png"
+        ],
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": true,
+        "name": "The Founding",
+        "team": "minion",
+        "flavor": "To all subjects of Ymir…",
+        "ability": "If Good would win, publicly choose a player. If they are the Royal Blood, Evil wins instead. [+Royal Blood]"
+    },
+    {
+        "id": "beast titan",
+        "image": "https://i.ibb.co/rcgJ3jr/beast.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "The Beast chooses a player. That player becomes a Titan :reminder:.",
+        "reminders": [
+            "Become Titan"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "The Beast",
+        "team": "demon",
+        "flavor": "Ahem… AAAAAAAAAAAAAAAAAAAAAAA-",
+        "ability": "Each night*, choose a player: they become a Titan (they change back when they die), without changing aligment, however they still are a player."
+    },
+    {
+        "id": "armored titan",
+        "image": "https://i.ibb.co/qpKZCWd/armored.png",
+        "edition": "custom",
+        "firstNightReminder": "A Titan enters :reminder:",
+        "otherNightReminder": "If the Armored Titan has not used his ability he can choose to use it. All Titans who would die tonight, don't die and do their attack :reminder:. A Titan enters :reminder:",
+        "reminders": [
+            "Titan Enters",
+            "No ability"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "The Armored",
+        "team": "demon",
+        "flavor": "It's over. You've lost. We've all suffered enough. You've suffered enough. It doesn't matter how much we struggle against it. Everyone dies. What's left for you... If you keep on living?!",
+        "ability": "Each night, a Titan enters. Once per game, choose that Titans cannot die tonight."
+    },
+    {
+        "id": "colossal titan",
+        "image": "https://i.ibb.co/DLpZqb7/colossal.png",
+        "edition": "custom",
+        "firstNightReminder": "The Colossal make a choice if he want to enter a Titan. If not, place 'No Titans' marker :reminder:. If yes enter A Titan :reminder:",
+        "otherNightReminder": "The Colossal can make a choice if he want to enter a Titan if the previous night he enter a Titan or 3 Titans. If not place 'No Titans' marker :reminder:. If yes enter a Titan :reminder:. If the previous night the Colossal chose to not enter a Titan, enter 3 Titans :reminder:.",
+        "reminders": [
+            "Titan Enters",
+            "No Titans",
+            "Three Titans Enter",
+            "Three Titans Enter",
+            "Three Titans Enter"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "The Colossal",
+        "team": "demon",
+        "flavor": "None of you have done anything wrong. And you’re not devils. It’s just that you all have to die. There’s nothing you can do now.",
+        "ability": "Each night, you may have a Titan enter. If you chose not to have one enter last night, three Titans enter."
+    },
+    {
+        "id": "female titan",
+        "image": "https://i.ibb.co/ypvqx7s/female.png",
+        "edition": "custom",
+        "firstNightReminder": "The Female chooses a player. A Titan enters next to it if move is correct  (if there is no such move - do not wake the Female) :reminder:.",
+        "otherNightReminder": "The Female chooses a player. A Titan enters next to it if move is correct :reminder:. Show the Female who Titans have attacked who and then show who Titans can move. The Titans move to the positions between seat of the chosen players and the next seat clockwise (if a move is incorrect ask again to move the Titan until all choices are correct). ",
+        "reminders": [
+            "Titan Enters"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "The Female",
+        "team": "demon",
+        "flavor": "I do think we're worthless, and we're definitely evil. You certainly can't call us upright, but... Doesn't that just make us regular people?",
+        "ability": "Each night, choose a player: a Titan enters next to them. You get information who Titans are alive during your turn at night and then you choose where Titans move after they attack.",
+        "special": [
+            {
+                "name": "card",
+                "type": "signal",
+                "time": "night",
+                "value": "These Titans can move:"
+            },
+            {
+                "name": "card",
+                "type": "signal",
+                "time": "night",
+                "value": "This Titan attack player:"
+            }
+        ]
+    },
+    {
+        "id": "Titan",
+        "image": "https://i.ibb.co/2g2df7r/png-clipart-drawing-attack-on-titan-angelica-pickles-colossal-titan-face-monochrome-removebg-preview.png",
+        "edition": "custom",
+        "firstNightReminder": "",
+        "otherNightReminder": "Choose a player next to each Titan. Kill that player :reminder:. If the player fight the Titan also die :reminder:. In the other case move the Titan to neigbour with as many alive players as possible :reminder:.",
+        "reminders": [
+            "Move",
+            "Dead",
+            "Move",
+            "Dead",
+            "Move",
+            "Dead",
+            "Move",
+            "Dead",
+            "Move",
+            "Dead",
+            "Move",
+            "Dead"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Titan",
+        "team": "traveler",
+        "flavor": "On that day, humanity received a grim reminder. We lived in fear of the Titans, and were disgraced to live in these cages we called walls.",
+        "ability": "You enter neighboring an alive player, and disappear when you die. Each night, attack a neighbor, then move to neighbor as many alive players as possible. You can't kill the Demon."
+    },
+    {
+        "id": "fight",
+        "edition": "custom",
+        "firstNightReminder": "Wake each player and show them the card 'Do you want to fight?' and place 'Fighting' marker for players who answered yes :reminder:. If the player is a Townsfolk all his abilities stops working.",
+        "otherNightReminder": "Wake each player and show them the card 'Do you want to fight?' and place 'Fighting' marker for players who answered yes :reminder:. If the player is a Townsfolk all his abilities stops working.",
+        "reminders": [
+            "Fighting",
+            "Dead",
+            "Fighting",
+            "Dead",
+            "Fighting",
+            "Dead",
+            "Fighting",
+            "Dead",
+            "Fighting",
+            "Dead",
+            "Fighting",
+            "Dead",
+            "Fighting",
+            "Dead",
+            "Fighting",
+            "Fighting",
+            "Fighting",
+            "Fighting",
+            "Fighting",
+            "Fighting",
+            "Fighting"
+        ],
+        "remindersGlobal": [
+        ],
+        "setup": false,
+        "name": "Fight!",
+        "team": "fabled",
+        "flavor": "Fight! You must fight! If you win, you live. If you lose, you die. If you don’t fight, you can’t win",
+        "ability": "Each night, alive players may choose to fight! If a Titan attacks you while you are fighting, it dies too. Townsfolk lose their ability while they fight.",
+        "special": [
+            {
+                "name": "card",
+                "type": "signal",
+                "time": "night",
+                "value": "Do you want to fight?",
+                "global": "townsfolk"
+            },
+            {
+                "name": "card",
+                "type": "signal",
+                "time": "night",
+                "value": "Do you want to fight?",
+                "global": "outsider"
+            },
+            {
+                "name": "card",
+                "type": "signal",
+                "time": "night",
+                "value": "Do you want to fight?",
+                "global": "minion"
+            },
+            {
+                "name": "card",
+                "type": "signal",
+                "time": "night",
+                "value": "Do you want to fight?",
+                "global": "demon"
+            }
+        ]
+    }
+]
