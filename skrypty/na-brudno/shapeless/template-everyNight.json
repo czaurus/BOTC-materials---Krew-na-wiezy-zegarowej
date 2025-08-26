@@ -6,8 +6,8 @@
   "firstNightReminder": "Obudź gracza. Niech wybierze postać, którą będzie grać",
   "otherNight": 51,
   "otherNightReminder": "Obudź gracza. Niech wybierze postać, którą teraz będzie grać",
-  "reminders": ["","used_ability", "Dubel = pijany"],
+  "reminders": ["refresh!", "odmówił", "no ability", "Dubel = pijany"],
   "setup": false,
   "ability": "Każdej nocy (?) budzisz się i wybierasz postać, którą będziesz mieć przez najbliższy dzień i noc. Jeśli wybierzesz postać, która już jest w grze: będziesz pijany (zatruty).",
-  "image": "https://github.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/blob/master/materials/karty-postaci/homebrew/cameleon.png"
+  "image": "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/homebrew/cameleon.png"
 }
