@@ -46,7 +46,8 @@
     "otherNight": 51,
     "otherNightReminder": "Obudź gracza. Niech wybierze postać, którą będzie grać",
     "reminders": [
-      "Dubel = pijany"
+      "Dubel = pijany",
+      ""
     ],
     "setup": false,
     "ability": "Raz na grę wybierz postać (ze swojej frakcji), którą chcesz się stać. Jeśli wybór będzie zdublowany: Jeden z dublujących Kameleonów będzie pijany. (Dubel - oznacza, że postać jest już w grze, nawet jeśli jest martwa).",
@@ -61,7 +62,8 @@
     "otherNight": 51,
     "otherNightReminder": "Obudź gracza. Niech wybierze postać, którą będzie grać",
     "reminders": [
-      "Dubel = pijany"
+      "Dubel = pijany",
+      ""
     ],
     "setup": false,
     "ability": "Raz na grę wybierz postać (ze swojej frakcji), którą chcesz się stać. Jeśli wybór będzie zdublowany: Jeden z dublujących Kameleonów będzie pijany. (Dubel - oznacza, że postać jest już w grze, nawet jeśli jest martwa).",
