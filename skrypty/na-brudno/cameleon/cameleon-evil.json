@@ -1,0 +1,21 @@
+{
+  "id": "pl_PL_Brew_Kameleon",
+  "name": "Kameleon Złol",
+  "team": "minion",
+  "firstNight": 40,
+  "firstNightReminder": "Obudź gracza. Niech wybierze postać, którą będzie grać",
+  "otherNight": 51,
+  "otherNightReminder": "Obudź gracza. Niech wybierze postać, którą będzie grać",
+  "reminders": [
+    "Dubel = pijany"
+  ],
+  "setup": false,
+  "ability": "Raz na grę wybierz postać (ze swojej frakcji), którą chcesz się stać. Jeśli wybór będzie zdublowany: Jeden z dublujących Kameleonów będzie pijany. (Dubel - oznacza, że postać jest już w grze, nawet jeśli jest martwa).",
+  "image": "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/homebrew/cameleon-red.png",
+  "jinxes": [
+    {
+      "id": "marionette",
+      "reason": "Jeśli Kameleon Złol wybierze Marionetkę - któryś z graczy stanie się Marionetką (może nawet inny Złol). Zły Kameleon może stać się Dobrym graczem (ale nie musi). Któraś z tych informacji może nawet zostanie obwieszczona publicznie przez Bajarza, ale nie musi... :)"
+    }
+  ]
+}
