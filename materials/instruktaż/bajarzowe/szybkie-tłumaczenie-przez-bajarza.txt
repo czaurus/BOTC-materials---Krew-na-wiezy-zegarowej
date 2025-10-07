@@ -1,0 +1,46 @@
+Note: Not done yet.
+
+Gra polega na tym, że dzielimy się na dwie drużyny: Dobro i zło. 
+W której drużynie się znajdziecie: rozstrzyga losowanie.
+Niebieski żeton: Dobro. Czerwony: zło.
+
+Złych graczy jest znacznie mniej. Oni dowiadują się kto jest w ich drużynie. 
+Natomiast dobrych graczy jest więcej, ale nie wiedzą kto jest w ich drużynie. 
+
+
+Źli: wiedzą kto jest w której drużynie.
+Dobrzy: Nie wiedzą. Więc nie wiedzą komu  można ufać. Z ich punktu widzenia: Ktoś kłamie, ale nie wiadomo kto. Zadaniem dobrych graczy: jest przekonać pozostałych dobrych, że jest się dobrym.
+I tu zaczyna się ta ciekawa część: Bo to wcale nie musi łatwe, zwłaszcza że Złole będą chciały w tym przeszkodzić.
+
+Jak to zrobią: Zależy wyłącznie od Złoli. 
+Mają do tego jednak kilka "oficjalnych" narzędzi:
+- Mogą udawać kogoś dobrego, kim naprawdę nie są.
+- Mogą stosować tzw. "truciznę".
+
+Czym jest trucizna?
+Jest to narzędzie, które może mieć Zło. W przypadku naszego Scenariusza, ma to "Truciciel".  Umiejętność truciciela to "Każdej nocy wskaż gracza. Jego umiejętność nie zadziała prawidłowo (tej nocy i najbliższego dnia)".
+
+Istnienie trucizny jest niezbędne - bo bez tego większość informacji (nawet uwzględniając starania Złoli - każdy mógłby wprowadzić jedną błędną informację) byłaby prawdziwa, a w takim wypadku idzie wydedukować, które są sprzeczne z pozostałymi, a tym samym namierzyć Złoli. Potwierdzone empirycznie.
+
+Gdy trucizna zostanie użyta zadaniem Bajarza jest tak przekazać informację, żeby "ofiara" (cel) się nie zorientowała, że jest zatruta. Bajarz - czyli ja - decyduje o ostatecznym kształcie "zniekształconej" zdolności. Niektóre zdolności otrzymują informację liczbową:
+np. Empata (dowiaduje się ilu z dwóch najbliższych sąsiadów jest Złych): bajarz decyduje jaką liczbę dostanie - czy o, czy 1, czy 2 (czy może w ogóle 7 - wtedy Empata się zorientuje, że jest zatruty, ale Bajarz się na to zdecydować).
+
+Teraz rozlosujemy postacie. 
+Zapamietajcie co wylosowaliście. (Gdybyście nawet zapomnieli, ja Wam przypomnę).
+Nie czytajcie na głos i nie mówcie co wylosowaliście. Wstrzymajcie się z tym do momentu aż powiem wyraźnie, że już można rozmawiać kim się jest.
+Informacja dla "weteranów" (czyli osób, które już znają zasady): Jeśli zdarzy się, że wśród nowych graczy będą Sługusi, dostaną ode mnie 1 blef (tak jak by Kapuś był w grze).
+
+
+[...Po rozdaniu postaci...]
+Od tego momentu każde wasze pytanie, o to jak działa jakaś postać, może być uważana za blef, kłamstwo i próbę wprowadzania w błąd. Bo pierwsze co przyjdzie innym do głowy to "skoro pyta o tę postać, to znaczy że prawdopodobnie nią jest". Nie musicie pytać o postać którą dostaliście. Możecie pytać o cokolwiek. Wyjaśnie tylko kilka postaci, reszta jest napisana na spisie postaci (które nazywamy "Scenariuszami") - do których zawsze będziecie mieć dostęp.
+
+Nie musicie pamiętać wszystkiego: Która postać co robi. Zapamiętajcie chociaż Waszą. W pewnym momencie - albo i przez większość gry - możecie nie wiedzieć co się dzieje i o co tu chodzi i co się właśnie wydarzyło. To znaczy, że złole działają. 
+Ja, jako bajarz będę ingerować zwłaszcza wtedy, kiedy zobaczę, że potrzebne jest wyjaśnienie jakichś zasad (bo ktoś może próbować wykorzystać waszą niewiedzę). Moim zadaniem jako Prowadzącego i Bajarza, jest żebyscie nie przejmowali się pamiętaniem wszystkich zasad, tylko żebyście dobrze się bawili. Jeśli będziecie mieć jakieś pytania (np. o waszą zdolność): w każdej chwili możecie poprosić mnie o prywatną rozmowę bez świadków.
+
+Gra dzieli się na noce i dni. W nocy zabija Demon - czyli zło, za dnia Wy wszyscy wspólnie (wiekszością głosów). Będą to tzw. Egzekucje przez duże "E".
+
+Teraz.... (...)
+
+Są dwie zasady: Jeśli jesteście źli: Nigdy nie przyznajecie się do tego publicznie. 
+Druga zasada: Zabijajcie z gracją, umierajcie z godnością. 
+Miasto idzie spać.
