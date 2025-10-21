@@ -1,0 +1,14 @@
+src: https://www.botcscripts.com/script/2519/1.0.0
+
+Teensy Script around the possibility of a Kazali - Soldier choice.
+
+In the few times I ran that script, I gave the Kazali the full choices from the lunatic, including player and role. That might favor evil a bit too much. A possible cure could be to only give the player and not the role of the minion.
+
+Fabled: Duchess - as additional way to collect info during the night and a possibility for the lunatic to figure out they are the lunatic.
+
+Translation (by google):
+Skrypt Teensy dotyczący możliwości wyboru Kazali – Żołnierza.
+
+W kilku przypadkach, gdy uruchamiałem ten skrypt, dałem Kazali pełne możliwości wyboru od szaleńca, w tym gracza i rolę. To mogłoby trochę za bardzo faworyzować zło. Możliwym lekarstwem mogłoby być danie tylko graczowi, a nie roli sługusa.
+
+Fabled: Księżna – jako dodatkowy sposób na zbieranie informacji w nocy i możliwość, aby szaleniec odkrył, że jest szaleńcem.

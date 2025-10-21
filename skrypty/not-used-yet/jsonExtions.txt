@@ -1,0 +1,4 @@
+"villageidiot",
+"fortuneteller",
+"undertaker",
+"monk","

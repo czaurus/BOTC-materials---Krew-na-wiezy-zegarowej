@@ -1,0 +1,19 @@
+src: https://www.botcscripts.com/script/8779/1.0.0
+
+This Teensy script really looks like it shouldn't work. And yet here it is.
+
+If it's a Typhon game, the good team can't afford to let the Vizier confirm the evil team, so they all have to claim to be evil and/or muddy the votes in case the Vizier tries to push one through.
+
+If it's a Lil’ Monsta game, the Vizier will have to pretend it's not, or risk the whole town rising against them while they're vulnerable to execution.
+
+There's no first night info except snake charming and the Vizier announcement, so Day 1 is all about socials and voting patterns. Then Night 2 gives fuzzy mechanical feedback to both teams. The icing on the stress-cake is trying to figure out whether there's a Heretic or a Philo-Heretic or both…
+
+
+Translation (by google):
+Ten skrypt Teensy'ego naprawdę wygląda, jakby nie powinien działać. A jednak jest.
+
+Jeśli to gra Typhon, dobra drużyna nie może pozwolić, by Wezyr potwierdził drużynę zła, więc wszyscy muszą udawać, że są źli i/lub zakłócić głosowanie na wypadek, gdyby Wezyr próbował przeforsować jakąś grę.
+
+Jeśli to gra Lil' Monsta, Wezyr będzie musiał udawać, że nie jest, albo zaryzykować, że całe miasto zbuntuje się przeciwko nim, podczas gdy oni będą narażeni na egzekucję.
+
+Nie ma żadnych informacji o pierwszej nocy poza zaklinaniem węży i ​​ogłoszeniem Wezyra, więc pierwszy dzień to przede wszystkim interakcje społeczne i schematy głosowania. Następnie drugi wieczór daje obu drużynom niejasne, mechaniczne informacje zwrotne. Wisienką na torcie stresu jest próba ustalenia, czy jest Heretyk, Filoherotyk, czy obaj…
