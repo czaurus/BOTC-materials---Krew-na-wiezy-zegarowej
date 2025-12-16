@@ -1,0 +1,13 @@
+{
+  "id": "pl_PL_groot",
+  "name": "Zaklęty w Groot",
+  "team": "outsider",
+  "firstNight": 40,
+  "firstNightReminder": "Show the marked character token. Point to the marked player.",
+  "otherNight": 51,
+  "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: The Grandmother dies.",
+  "reminders": ["Groot", "curse fullfilled"],
+  "setup": false,
+  "ability": "Klątwa. W ciągu dnia masz limit 10 słów na minutę. Słowa \"Ja jestem groot\" nie liczą się do limitu. Przekroczysz limit - możesz umrzeć. Jeśli nie przekroczysz limitu - rano publicznie przekaż Klątwę (Bajarz nie musi tego pilnować ani potwierdzać). Przekazanie nie zadziała na Demona. ",
+  "image": "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/Groot.jpg"
+},
