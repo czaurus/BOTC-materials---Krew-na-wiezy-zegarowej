@@ -1,0 +1,4 @@
+
+    "alchemist",
+    "snitch",
+    {"id": "pl_PL_spy", "name": "Szpieg", "team": "minion", "firstNight": 49, "firstNightReminder": "Poka\u017c Szpiegowi Grymuar na tak d\u0142ugo, jak tego potrzebuje.", "otherNight": 68, "otherNightReminder": "Poka\u017c Szpiegowi Grymuar na tak d\u0142ugo, jak tego potrzebuje.", "reminders": [], "setup": false, "ability": "Ka\u017cdej nocy zagl\u0105dasz do Grymuaru. Mo\u017cesz by\u0107 pokazany jako Dobry czyli jako Mieszczanin lub Outsider, nawet po \u015bmierci.", "image": "https://github.com/bra1n/townsquare/raw/develop/src/assets/icons/spy.png"  }
