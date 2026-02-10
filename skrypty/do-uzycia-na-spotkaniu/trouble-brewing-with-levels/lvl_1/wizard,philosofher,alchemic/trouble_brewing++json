@@ -1,11 +1,11 @@
 [
-  { "id": "_meta", "author": "cb", "name": "trouble_brewing+" },
+  { "id": "_meta", "author": "Official", "name": "trouble_brewing - lvl 0" },
   "washerwoman",
   "librarian",
   "investigator",
   "chef",
   "empath",
-  "flowergirl",
+  "fortuneteller",
   "undertaker",
   "monk",
   "ravenkeeper",
@@ -13,15 +13,18 @@
   "slayer",
   "soldier",
   "mayor",
-  "snakecharmer",
-  "general",
+  "butler",
   "drunk",
   "recluse",
-  "lunatic",
-  "golem",
+  "saint",
   "poisoner",
   "spy",
   "scarletwoman",
   "baron",
-  "imp"
+  "imp",
+
+  "philosopher",
+  "alchemist",
+  "wizard",
+  "marionette "
 ]
