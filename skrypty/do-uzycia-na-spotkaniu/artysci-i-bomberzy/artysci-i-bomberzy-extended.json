@@ -1,0 +1,33 @@
+[
+  {
+    "id": "_meta",
+    "author": "Aveja",
+    "name": "Artyści i bomberzy - extender",
+    "bootlegger": [
+      "Gra rozpoczyna się albo z Pijakami (outsider Drunk), albo z Lokajami.",
+      "Ilość outsiderów może zostać zmniejszona do 0.",
+      "Ilość Głupków Wioskowych nie jest ograniczona. Tylko jeden z nich może być pijany w związku ze zdolnością Głupka Wioskowego (co nie wyklucza Pijaka-ousidera wśród Głupków Wioskowych).",
+      "Bajarz może powiedzieć, że w grze jest któryś z Demonów: <Vortox lub Zombuul> albo <legion lub Riot (Zamieszki)> .",
+      "Artysta, który szaleje (ujawnia), że jest Artystą może stać się Pijany (nie staje się Outsiderem, uzyskuje efekt zatrucia)"
+    ]
+  },
+  "artist",
+  "villageidiot",
+  "cultleader",
+
+  "drunk",
+  "butler",
+
+  "wizard",
+  "boomdandy",
+
+  "vortox",
+  "zombuul",
+
+  "legion",
+  "riot",
+
+  "zenomancer",
+  "pope",
+  "bootlegger"
+]
