@@ -1,0 +1,40 @@
+[
+  {
+    "id": "_meta",
+    "author": "cb",
+    "name": "Barista i łowca Burz",
+    "bootlegger": [
+      "Barista musi być w grze. Może być poduszką.",
+      "Zabity Barista może wrócić do gry (Dopiero po upływie najbliższego dnia lub nocy).",
+      "Dopuszczalny jest wariant, że każdy zabity gracz staje się Baristą. Poprzedni Barista umiera."
+    ]
+  },
+  "villageidiot",
+  "artist",
+  "cultleader",
+  "savant",
+  "fisherman",
+
+  "hermit",
+  "goon",
+  "drunk",
+  "tinker",
+
+  "fearmonger",
+  "eviltwin",
+  "psychopath",
+  "mastermind",
+
+  "zombuul",
+  "lordoftyphon",
+  "riot",
+  "yaggababble",
+
+  "barista",
+
+  "hindu",
+  "bootlegger",
+  "stormcatcher",
+  "fibbin",
+  "angel"
+]
