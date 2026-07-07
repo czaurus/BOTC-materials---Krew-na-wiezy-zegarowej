@@ -1,0 +1,267 @@
+﻿[
+    {
+        "id":  "egotist",
+        "name":  "Egotist",
+        "image":  [
+                      "http://menagerie.splittingpixels.com.au/images/egog.png",
+                      "http://menagerie.splittingpixels.com.au/images/egoe.png"
+                  ],
+        "flavor":  "How dare you? I\u0027ll have you know I am good friends with Baron Morozov - VERY good friends - and he can have you hanged for this. Who do you think you are? You know, you\u0027re awfully talkative for a lowly librarian. I bet you don\u0027t even read books. I\u0027ve read over a hundred. Not to mention--",
+        "ability":  "One Townsfolk player who nominates you or votes on your execution is drunk until dawn, even if you are dead. You cannot self-nominate.",
+        "setup":  false,
+        "team":  "outsider",
+        "reminders":  [
+                          "Drunk"
+                      ]
+    },
+    {
+        "id":  "fixer",
+        "name":  "Fixer",
+        "image":  [
+                      "http://menagerie.splittingpixels.com.au/images/doubg.png",
+                      "http://menagerie.splittingpixels.com.au/images/doube.png"
+                  ],
+        "flavor":  "Now listen here, bub. I\u0027ve got five hundred bones on Morozov over there, so no funny stuff. Stick to the plan, and make sure he makes it out alive. If he goes down, we all go down. You get me?",
+        "ability":  "On your first night, choose 3 players (not yourself). If 2 are among the last 3 alive, you win with the winning team, even if dead. If any die, you might die at any time.",
+        "setup":  false,
+        "team":  "outsider",
+        "firstNight":  47,
+        "firstNightReminder":  "The Fixer chooses 3 players.",
+        "reminders":  [
+                          "Bet",
+                          "Bet",
+                          "Bet",
+                          "Dead"
+                      ]
+    },
+    {
+        "id":  "guardian",
+        "name":  "Guardian",
+        "image":  [
+                      "http://menagerie.splittingpixels.com.au/images/guag.png",
+                      "http://menagerie.splittingpixels.com.au/images/guae.png"
+                  ],
+        "flavor":  "Ahakoa he iti, he pounamu.",
+        "ability":  "Each night, learn a player. From night 2, pick a player (not yourself). If the Demon chooses them at night, learn whether the Demon is a known player.",
+        "firstNight":  37,
+        "firstNightReminder":  "Show the Guardian one player. Mark that player with the *Known* token. :reminder:",
+        "otherNight":  55,
+        "otherNightReminder":  "Show the Guardian one player. Mark that player with the *Known* token. :reminder: Ask the Guardian to pick a player. If that player was chosen by the Demon, nod or shake your head.",
+        "setup":  false,
+        "team":  "townsfolk",
+        "reminders":  [
+                          "Known",
+                          "Known",
+                          "Known",
+                          "Known",
+                          "Known",
+                          "Known",
+                          "Known",
+                          "Known",
+                          "Known",
+                          "Known",
+                          "Known",
+                          "Known",
+                          "Known",
+                          "Learns Tonight"
+                      ]
+    },
+    {
+        "id":  "madscientist",
+        "name":  "Mad Scientist",
+        "image":  [
+                      "http://menagerie.splittingpixels.com.au/images/sci.png",
+                      "http://menagerie.splittingpixels.com.au/images/scig.png",
+                      "http://menagerie.splittingpixels.com.au/images/scie.png"
+                  ],
+        "flavor":  "It\u0027s alive... it\u0027s alive!",
+        "ability":  "Each night*, choose a dead player. They are poisoned and alive until dusk.",
+        "setup":  false,
+        "team":  "traveler",
+        "otherNight":  8,
+        "otherNightReminder":  "The Mad Scientist chooses a dead player. :reminder:",
+        "reminders":  [
+                          "It\u0027s Alive!"
+                      ]
+    },
+    {
+        "id":  "martyr",
+        "name":  "Martyr",
+        "image":  [
+                      "http://menagerie.splittingpixels.com.au/images/marg.png",
+                      "http://menagerie.splittingpixels.com.au/images/mare.png"
+                  ],
+        "flavor":  "The only thing that lingers longer than the blood of a martyr is the guilt of the one who survives.",
+        "ability":  "Once per game, at night*, you may learn the role of a player chosen by the Demon tonight, and die in their place.",
+        "otherNight":  34,
+        "otherNightReminder":  "The Martyr may choose to use their ability. If they do, mark the Martyr as Dead. The Martyr learns the character marked Dead by the Demon.",
+        "setup":  false,
+        "team":  "townsfolk",
+        "reminders":  [
+                          "Dead",
+                          "Learns"
+                      ],
+        "jinxes":  [
+                       {
+                           "id":  "innkeeper",
+                           "reason":  "If the Martyr is protected by the Innkeeper on the night they use their ability, the Martyr does not die, but learns arbitrary information."
+                       }
+                   ]
+    },
+    {
+        "id":  "mercysociety",
+        "name":  "Mercy Society",
+        "image":  [
+                      "http://menagerie.splittingpixels.com.au/images/peam.png"
+                  ],
+        "flavor":  "Inter arma caritas. Per humanitatem ad pacem. (Additional credit: Smokey \u0026 annwithaplan)",
+        "ability":  "Each night, one player learns which alignment the Storyteller believes is winning: good, evil, or neither. Drunk or poisoned players may receive false info.",
+        "firstNight":  71,
+        "firstNightReminder":  "Wake one player and show them the Mercy Society token, as well as a number from 1 to 5.",
+        "otherNight":  89,
+        "otherNightReminder":  "Wake one player and show them the Mercy Society token, as well as a number from 1 to 5.",
+        "reminders":  [
+                          "Learns Tonight"
+                      ],
+        "setup":  false,
+        "team":  "fabled",
+        "jinxes":  [
+                       {
+                           "id":  "general",
+                           "reason":  "If the General is in play at the same time as the Mercy Society, evil learns that a General is in play. The General\u0027s information is false once per game."
+                       }
+                   ]
+    },
+    {
+        "id":  "mime",
+        "name":  "Mime",
+        "image":  [
+                      "http://menagerie.splittingpixels.com.au/images/mimg.png",
+                      "http://menagerie.splittingpixels.com.au/images/mime.png"
+                  ],
+        "flavor":  "...! ...? ...?! ...! ...!",
+        "ability":  "If you are \u0027mad\u0027 as a good character today, learn if it is in play the next night.",
+        "otherNight":  64,
+        "otherNightReminder":  "If the Mime was successful during the day, wake them and nod or shake your head, depending on whether the role is in play.",
+        "setup":  false,
+        "team":  "townsfolk",
+        "reminders":  [
+                          "...!"
+                      ]
+    },
+    {
+        "id":  "parasitoid",
+        "name":  "Parasitoid",
+        "image":  "https://menagerie.splittingpixels.com.au/images/parasite.png",
+        "team":  "loric",
+        "setup":  false,
+        "ability":  "On Night 1, learn a player. You are in their seat for the purposes of executions and deaths.",
+        "flavor":  "...While this creature feeds upon and grows inside the host creature, should the host be predated upon, the nematomorph is at risk of death.",
+        "firstNight":  1.5,
+        "firstNightReminder":  "Assign a unique player to each seat, and send their name to the player sitting in that seat. In the event of an odd number of players, one player receives their own name."
+    },
+    {
+        "id":  "polterghast",
+        "name":  "Polterghast",
+        "image":  [
+                      "http://menagerie.splittingpixels.com.au/images/pole.png",
+                      "http://menagerie.splittingpixels.com.au/images/polg.png"
+                  ],
+        "flavor":  "\u0027Over my dead body\u0027, you say? Well, if you insist.",
+        "ability":  "Each night*, choose a player: they die. Once per game, at night*, you may choose to register as dead \u0026 poison 1 Townsfolk neighbour.",
+        "otherNight":  34,
+        "otherNightReminder":  "The Polterghast selects a player. They may also choose to use their ability to feign death. Give them the \u0027Play Dead\u0027 token and announce them as dead in the morning.",
+        "team":  "demon",
+        "reminders":  [
+                          "Dead",
+                          "Play Dead",
+                          "Poisoned"
+                      ],
+        "jinxes":  [
+                       {
+                           "id":  "scarletwoman",
+                           "reason":  "If the Polterghast dies while registering as dead, the Scarlet Woman becomes the Polterghast whose ability has already been used."
+                       }
+                   ]
+    },
+    {
+        "id":  "pyro",
+        "name":  "Pyro",
+        "image":  "http://menagerie.splittingpixels.com.au/images/Pyro2.png",
+        "team":  "loric",
+        "setup":  false,
+        "ability":  "There are no nominations. At the end of each day, the player with the most players pointing at them is executed. Dead players who point at themselves are not counted.",
+        "special":  [
+                        {
+                            "type":  "ability",
+                            "name":  "pointing",
+                            "time":  "day"
+                        }
+                    ],
+        "flavor":  "Papa! Look at the pretty colours in the sky! Wow, that was a big one! Oh... Mr. Morozov must have been tired - he\u0027s fallen asleep.",
+        "jinxes":  [
+                       {
+                           "id":  "goblin",
+                           "reason":  "The Goblin must publicly claim to be the Goblin before end of day, instead of during nominations."
+                       }
+                   ]
+    },
+    {
+        "id":  "seiren",
+        "name":  "Seiren",
+        "image":  [
+                      "https://i.imgur.com/Bn2Nq0K.png",
+                      "https://i.imgur.com/edmDpWX.png"
+                  ],
+        "flavor":  "It is said their song is honey-sweet, carried on rotten air. Among the salt and carrion, it is a tonic that heals and soothes. Pray you never hear it.",
+        "ability":  "Each night, choose a player: they become your alignment. The previously changed player dies: they swap back before dawn, even if the Seiren is drunk. Anyone \u0027mad\u0027 about being evil might be executed. [-1 Minion]",
+        "firstNight":  41,
+        "firstNightReminder":  "The Seiren selects a player: mark them with the \u0027Turned\u0027 reminder, wake them, and inform them of their new alignment.",
+        "otherNight":  34,
+        "otherNightReminder":  "The Seiren selects a player: mark them with the \u0027Turned\u0027 reminder, wake them, and inform them of their new alignment. The previously turned character dies; inform them that they are their previous alignment before the next day begins.",
+        "setup":  true,
+        "team":  "demon",
+        "reminders":  [
+                          "Turned",
+                          "Dead"
+                      ],
+        "jinxes":  [
+                       {
+                           "id":  "eviltwin",
+                           "reason":  "The Evil Twin\u0027s good player still counts as good for the purposes of the Evil Twin\u0027s ability when turned by the Seiren."
+                       },
+                       {
+                           "id":  "monk",
+                           "reason":  "The Monk\u0027s ability fails if they try to protect a player already turned evil by the Seiren. "
+                       }
+                   ]
+    },
+    {
+        "id":  "tactician",
+        "name":  "Tactician",
+        "image":  [
+                      "http://menagerie.splittingpixels.com.au/images/tac.png",
+                      "http://menagerie.splittingpixels.com.au/images/tacg.png",
+                      "http://menagerie.splittingpixels.com.au/images/tace.png"
+                  ],
+        "flavor":  "Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt.",
+        "ability":  "Each night*, choose a player. You may give them advice: they learn this, and whether it will help your team win the game.",
+        "setup":  false,
+        "team":  "traveler",
+        "otherNight":  8,
+        "otherNightReminder":  "The Tactician chooses a player and offers advice to the Storyteller. The Storyteller wakes that player, provides that advice, and gives a thumbs up or down."
+    },
+    {
+        "id":  "taxidermist",
+        "name":  "Taxidermist",
+        "image":  [
+                      "http://menagerie.splittingpixels.com.au/images/tax.png",
+                      "http://menagerie.splittingpixels.com.au/images/taxg.png",
+                      "http://menagerie.splittingpixels.com.au/images/taxe.png"
+                  ],
+        "flavor":  "The difference between the tax man and the taxidermist is that the taxidermist leaves the skin.",
+        "ability":  "Dead votes can be used to nominate. If you die, travel out or are exiled, choose 1-3 players: they regain their vote token.",
+        "setup":  false,
+        "team":  "traveler"
+    }
+]

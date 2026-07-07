@@ -1,0 +1,12 @@
+{
+  "id": "suicidal wizard",
+  "name": "Samobójstwo się opłaca",
+  "image": ["https://png.pngtree.com/png-vector/20260411/ourmid/pngtree-wizard-hat-magic-png-image_19092710.webp"],
+  "flavor": "Spełnij marzenie, zabij sam siebie xD",
+  "ability": "Gracz, który umrze od nominacji na samego siebie zostaje pośmiertnym Czarodziejem. (Bajarz może odmówić spełnienia życzenia, ale w zamian udziela informacji o grze).",
+  "otherNight": 34,
+  "otherNightReminder": "",
+  "team": "fabled",
+  "reminders": ["suicided", "is wizard", "wish used"],
+  "jinxes": []
+}

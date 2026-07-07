@@ -1,0 +1,20 @@
+{
+  "id": "mercysociety",
+  "name": "Towarzystwo Miłosierdzia",
+  "image": ["http://menagerie.splittingpixels.com.au/images/peam.png"],
+  "flavor": "Inter arma caritas. Per humanitatem ad pacem. (Additional credit: Smokey & annwithaplan)",
+  "ability": "Każdej nocy jeden z graczy dowiaduje się, która strona, zdaniem Bajarza, wygrywa: dobra, zła, czy żadna. Pijani lub otruci gracze mogą otrzymać fałszywe informacje.",
+  "firstNight": 71,
+  "firstNightReminder": "Wake one player and show them the Mercy Society token, as well as a number from 1 to 5.",
+  "otherNight": 89,
+  "otherNightReminder": "Wake one player and show them the Mercy Society token, as well as a number from 1 to 5.",
+  "reminders": ["Learns Tonight"],
+  "setup": false,
+  "team": "fabled",
+  "jinxes": [
+    {
+      "id": "general",
+      "reason": "If the General is in play at the same time as the Mercy Society, evil learns that a General is in play. The General's information is false once per game."
+    }
+  ]
+}

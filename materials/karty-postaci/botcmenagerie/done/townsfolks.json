@@ -1,0 +1,46 @@
+[
+  {
+    "id": "guardian",
+    "name": "Strażnik",
+    "image": ["http://menagerie.splittingpixels.com.au/images/guag.png", "http://menagerie.splittingpixels.com.au/images/guae.png"],
+    "flavor": "Ahakoa he iti, he pounamu.",
+    "ability": "Każdej nocy poznajesz gracza. Od 2 nocy wybierz gracza (nie siebie). Jeśli Demon go zabije, dowiesz się czy Demon jest wśród 'poznanych' graczy.",
+    "firstNight": 37,
+    "firstNightReminder": "Show the Guardian one player. Mark that player with the *Known* token. :reminder:",
+    "otherNight": 55,
+    "otherNightReminder": "Show the Guardian one player. Mark that player with the *Known* token. :reminder: Ask the Guardian to pick a player. If that player was chosen by the Demon, nod or shake your head.",
+    "setup": false,
+    "team": "townsfolk",
+    "reminders": ["Known", "Known", "Known", "Known", "Learns Tonight"]
+  },
+  {
+    "id": "martyr",
+    "name": "Męczennik`",
+    "image": ["http://menagerie.splittingpixels.com.au/images/marg.png", "http://menagerie.splittingpixels.com.au/images/mare.png"],
+    "flavor": "The only thing that lingers longer than the blood of a martyr is the guilt of the one who survives.",
+    "ability": "Raz na grę, w nocy*, możesz zdecydować, że chcesz poznać rolę postaci wybranej dziś przez Demona, ale umrzesz zamiast niej. (śmierć liczona jest jako 'od demona')",
+    "otherNight": 34,
+    "otherNightReminder": "The Martyr may choose to use their ability. If they do, mark the Martyr as Dead. The Martyr learns the character marked Dead by the Demon.",
+    "setup": false,
+    "team": "townsfolk",
+    "reminders": ["Dead", "Learns"],
+    "jinxes": [
+      {
+        "id": "innkeeper",
+        "reason": "If the Martyr is protected by the Innkeeper on the night they use their ability, the Martyr does not die, but learns arbitrary information."
+      }
+    ]
+  },
+  {
+    "id": "mime",
+    "name": "Mim",
+    "image": ["http://menagerie.splittingpixels.com.au/images/mimg.png", "http://menagerie.splittingpixels.com.au/images/mime.png"],
+    "flavor": "...! ...? ...?! ...! ...!",
+    "ability": "Jeśli za dnia szalejesz, że jesteś którąś dobrą postacią, w nocy dowiesz się czy ta postać jest w grze.",
+    "otherNight": 64,
+    "otherNightReminder": "If the Mime was successful during the day, wake them and nod or shake your head, depending on whether the role is in play.",
+    "setup": false,
+    "team": "townsfolk",
+    "reminders": ["...!"]
+  }
+]

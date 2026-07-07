@@ -1,0 +1,12 @@
+{
+  "id": "muckraker",
+  "name": "Łowca brudów (Muckraker)",
+  "image": ["http://menagerie.splittingpixels.com.au/images/muce.png", "http://menagerie.splittingpixels.com.au/images/mucg.png"],
+  "flavor": "Sir, please. It's right there, in print, clear as day. 'MAYORAL SCANDAL - CAVORTING WITH DEMONS' - save your lies for the courts.",
+  "ability": "Każdego dnia, 3 żywych graczy musi wygłosić publiczne oświadczenie odnośnie gry (różne od siebie), lub Dobro przegra. W nocy, jeśli przynajmniej 1 było fałszywe, ktoś umrze.",
+  "otherNight": 33,
+  "otherNightReminder": "If a player has made an incorrect statement for the Muckraker, the player marked 'Slandered' dies.",
+  "reminders": ["Slandered"],
+  "setup": false,
+  "team": "minion"
+}

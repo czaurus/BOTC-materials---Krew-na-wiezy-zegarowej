@@ -1,0 +1,48 @@
+[
+  {
+    "id": "doppelganger",
+    "name": "Doppelganger",
+    "image": ["http://menagerie.splittingpixels.com.au/images/dope.png", "http://menagerie.splittingpixels.com.au/images/dopg.png"],
+    "flavor": "You think I am, therefore I am.",
+    "ability": "1 Mieszczanin jest zatruty oraz rejestruje się jako Zły Sługus. Poznajesz jego rolę i jesteś ujawniany/rejestrowany jako ten gracz, nawet po śmierci. Jeden z dobrych graczy wie, że Doppelganger to jeden z dwóch graczy. [-1 lub +1 Outsider]",
+    "firstNight": 20,
+    "firstNightReminder": "Mark one Townsfolk as Duplicated; note another in-play or out-of-play character as the other character to provide to a player. Wake that player, and tell them that the Doppelganger is the character marked as Duplicated, and the other character.",
+    "team": "minion",
+    "setup": true,
+    "reminders": ["Duplicated", "Knows"]
+  },
+  {
+    "id": "gerrymanderer",
+    "name": "Manipulant wyborczy",
+    "image": ["http://menagerie.splittingpixels.com.au/images/gere.png", "http://menagerie.splittingpixels.com.au/images/gerg.png"],
+    "flavor": "Stand up, and let every voice be heard! Mine especially.",
+    "ability": "Jeśli żyje 5 lub więcej graczy, oraz przynajmniej 3 nominacje nie przeszły (za mało, żeby była Egzekucja), w nocy wskaż gracza: umrze. <eng. gerrymanderer>",
+    "otherNight": 33,
+    "otherNightReminder": "If the Gerrymanderer has the ‘Democracy Manifest’ reminder reminder token, wake the Gerrymanderer; they select a player.",
+    "team": "minion",
+    "reminders": ["Failed 1st", "Failed 2nd", "Democracy Manifest"]
+  },
+  {
+    "id": "muckraker",
+    "name": "Łowca brudów (Muckraker)",
+    "image": ["http://menagerie.splittingpixels.com.au/images/muce.png", "http://menagerie.splittingpixels.com.au/images/mucg.png"],
+    "flavor": "Sir, please. It's right there, in print, clear as day. 'MAYORAL SCANDAL - CAVORTING WITH DEMONS' - save your lies for the courts.",
+    "ability": "Każdego dnia, 3 żywych graczy musi wygłosić publiczne oświadczenie odnośnie gry (różne od siebie), lub Dobro przegra. W nocy, jeśli przynajmniej 1 było fałszywe, ktoś umrze.",
+    "otherNight": 33,
+    "otherNightReminder": "If a player has made an incorrect statement for the Muckraker, the player marked 'Slandered' dies.",
+    "reminders": ["Slandered"],
+    "setup": false,
+    "team": "minion"
+  },
+  {
+    "id": "necromancer",
+    "name": "Nekromanta",
+    "image": ["http://menagerie.splittingpixels.com.au/images/nece.png", "http://menagerie.splittingpixels.com.au/images/necg.png"],
+    "flavor": "Ⱄⱆⱃⰳⰵ Ⰵⱅ Ⰿⰻⱀⰻⱄⱅⱃⰰ Ⰿⰻⱈⰻ... Ⱄⱆⱃⰳⰵ Ⰵⱅ Ⰿⰻⱀⰻⱄⱅⱃⰰ Ⰿⰻⱈⰻ...",
+    "ability": "Raz na grę, w nocy*, wybierz martwego gracza (nie Demona). Dostajesz jego zdolność. (Jeśli wróci do żywych, tracisz ją).",
+    "otherNight": 40,
+    "otherNightReminder": "The Necromancer chooses a player. Mark that player with the 'Raised' reminder token. :reminder: From then on, wake the Necromancer at the point in the night order corresponding to that character.",
+    "team": "minion",
+    "reminders": ["Raised"]
+  }
+]

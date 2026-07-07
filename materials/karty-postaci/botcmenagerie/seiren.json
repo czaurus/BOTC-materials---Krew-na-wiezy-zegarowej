@@ -1,0 +1,21 @@
+{
+  "id": "seiren",
+  "name": "Syrena",
+  "image": ["https://i.imgur.com/Bn2Nq0K.png", "https://i.imgur.com/edmDpWX.png"],
+  "flavor": "It is said their song is honey-sweet, carried on rotten air. Among the salt and carrion, it is a tonic that heals and soothes. Pray you never hear it.",
+  "ability": "Każdej nocy wybierz gracza: Teraz jest w Twojej drużynie. Poprzednio wybrany gracz umiera i wraca do swojej drużyny (o zmierzchu. Nawet jeśli Syrena jest pijana/zatruta). Jeśli wskazana osoba 'szaleje', że stała się zła, może zostać Stracona. [-1 Sługus]",
+  "firstNight": 41,
+  "firstNightReminder": "The Seiren selects a player: mark them with the 'Turned' reminder, wake them, and inform them of their new alignment.",
+  "otherNight": 34,
+  "otherNightReminder": "The Seiren selects a player: mark them with the 'Turned' reminder, wake them, and inform them of their new alignment. The previously turned character dies; inform them that they are their previous alignment before the next day begins.",
+  "setup": true,
+  "team": "demon",
+  "reminders": ["Turned", "Dead"],
+  "jinxes": [
+    {
+      "id": "eviltwin",
+      "reason": "The Evil Twin's good player still counts as good for the purposes of the Evil Twin's ability when turned by the Seiren."
+    },
+    { "id": "monk", "reason": "The Monk's ability fails if they try to protect a player already turned evil by the Seiren. " }
+  ]
+}

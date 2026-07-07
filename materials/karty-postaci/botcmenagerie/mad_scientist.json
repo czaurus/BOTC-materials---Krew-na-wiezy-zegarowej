@@ -1,0 +1,16 @@
+{
+  "id": "madscientist",
+  "name": "Mad Scientist",
+  "image": [
+    "http://menagerie.splittingpixels.com.au/images/sci.png",
+    "http://menagerie.splittingpixels.com.au/images/scig.png",
+    "http://menagerie.splittingpixels.com.au/images/scie.png"
+  ],
+  "flavor": "It's alive... it's alive!",
+  "ability": "Każdej* nocy wskaż martwego gracza. Będzie żywy i zatruty aż do zmierzchu (końca dnia).",
+  "setup": false,
+  "team": "traveler",
+  "otherNight": 8,
+  "otherNightReminder": "The Mad Scientist chooses a dead player. :reminder:",
+  "reminders": ["It's Alive!"]
+}

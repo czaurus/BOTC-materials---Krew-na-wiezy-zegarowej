@@ -1,0 +1,11 @@
+{
+  "id": "parasitoid",
+  "name": "Pasożytoid",
+  "image": "https://menagerie.splittingpixels.com.au/images/parasite.png",
+  "team": "loric",
+  "setup": false,
+  "ability": "Pierwszej nocy poznajesz gracza. Na potrzeby rozpatrywania egzekucji i śmierci, siedzisz na jego miejscu.",
+  "flavor": "...While this creature feeds upon and grows inside the host creature, should the host be predated upon, the nematomorph is at risk of death.",
+  "firstNight": 1.5,
+  "firstNightReminder": "Assign a unique player to each seat, and send their name to the player sitting in that seat. In the event of an odd number of players, one player receives their own name."
+}

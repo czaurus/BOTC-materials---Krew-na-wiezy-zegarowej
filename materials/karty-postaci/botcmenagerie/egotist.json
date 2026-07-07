@@ -1,0 +1,11 @@
+{
+  "id": "egotist",
+  "name": "Egotysta",
+  "image": ["http://menagerie.splittingpixels.com.au/images/egog.png", "http://menagerie.splittingpixels.com.au/images/egoe.png"],
+  "flavor": "How dare you? I'll have you know I am good friends with Baron Morozov - VERY good friends - and he can have you hanged for this. Who do you think you are? You know, you're awfully talkative for a lowly librarian. I bet you don't even read books. I've read over a hundred. Not to mention--",
+  "ability": "Jeden z Mieszczan, który głosował na Ciebie lub Cię nominował jest pijany (do najbliższego świtu). Nie możesz nominować sam siebie.",
+  "setup": false,
+  "team": "outsider",
+
+  "reminders": ["Drunk"]
+}

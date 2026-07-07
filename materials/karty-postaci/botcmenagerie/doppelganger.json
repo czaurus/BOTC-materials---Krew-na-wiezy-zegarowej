@@ -1,0 +1,12 @@
+{
+  "id": "doppelganger",
+  "name": "Doppelganger",
+  "image": ["http://menagerie.splittingpixels.com.au/images/dope.png", "http://menagerie.splittingpixels.com.au/images/dopg.png"],
+  "flavor": "You think I am, therefore I am.",
+  "ability": "1 Mieszczanin jest zatruty oraz rejestruje się jako Zły Sługus. Poznajesz jego rolę i jesteś ujawniany/rejestrowany jako ten gracz, nawet po śmierci. Jeden z dobrych graczy wie, że Doppelganger to jeden z dwóch graczy. [-1 lub +1 Outsider]",
+  "firstNight": 20,
+  "firstNightReminder": "Mark one Townsfolk as Duplicated; note another in-play or out-of-play character as the other character to provide to a player. Wake that player, and tell them that the Doppelganger is the character marked as Duplicated, and the other character.",
+  "team": "minion",
+  "setup": true,
+  "reminders": ["Duplicated", "Knows"]
+}

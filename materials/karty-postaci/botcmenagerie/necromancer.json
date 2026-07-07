@@ -1,0 +1,11 @@
+{
+  "id": "necromancer",
+  "name": "Nekromanta",
+  "image": ["http://menagerie.splittingpixels.com.au/images/nece.png", "http://menagerie.splittingpixels.com.au/images/necg.png"],
+  "flavor": "Ⱄⱆⱃⰳⰵ Ⰵⱅ Ⰿⰻⱀⰻⱄⱅⱃⰰ Ⰿⰻⱈⰻ... Ⱄⱆⱃⰳⰵ Ⰵⱅ Ⰿⰻⱀⰻⱄⱅⱃⰰ Ⰿⰻⱈⰻ...",
+  "ability": "Raz na grę, w nocy*, wybierz martwego gracza (nie Demona). Dostajesz jego zdolność. (Jeśli wróci do żywych, tracisz ją).",
+  "otherNight": 40,
+  "otherNightReminder": "The Necromancer chooses a player. Mark that player with the 'Raised' reminder token. :reminder: From then on, wake the Necromancer at the point in the night order corresponding to that character.",
+  "team": "minion",
+  "reminders": ["Raised"]
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "polterghast",
+    "name": "Poltergheist",
+    "image": ["http://menagerie.splittingpixels.com.au/images/pole.png", "http://menagerie.splittingpixels.com.au/images/polg.png"],
+    "flavor": "'Over my dead body', you say? Well, if you insist.",
+    "ability_": "Each night*, choose a player: they die. Once per game, at night*, you may choose to register as dead & poison 1 Townsfolk neighbour.",
+    "ability": "Każdej nocy*, wybierz gracza: umiera. Raz na grę, w nocy*, możesz zdecydować, że chcesz rejestrować się jako martwy i zatruj 1 sąsiadującego z Tobą Mieszczanina .",
+    "otherNight": 34,
+    "otherNightReminder": "The Polterghast selects a player. They may also choose to use their ability to feign death. Give them the 'Play Dead' token and announce them as dead in the morning.",
+    "team": "demon",
+    "reminders": ["Dead", "Play Dead", "Poisoned"],
+    "jinxes": [
+      {
+        "id": "scarletwoman",
+        "reason": "If the Polterghast dies while registering as dead, the Scarlet Woman becomes the Polterghast whose ability has already been used."
+      }
+    ]
+  },
+  {
+    "id": "seiren",
+    "name": "Syrena",
+    "image": ["https://i.imgur.com/Bn2Nq0K.png", "https://i.imgur.com/edmDpWX.png"],
+    "flavor": "It is said their song is honey-sweet, carried on rotten air. Among the salt and carrion, it is a tonic that heals and soothes. Pray you never hear it.",
+    "ability": "Każdej nocy wybierz gracza: Teraz jest w Twojej drużynie. Poprzednio wybrany gracz umiera i wraca do swojej drużyny (o zmierzchu. Nawet jeśli Syrena jest pijana/zatruta). Jeśli wskazana osoba 'szaleje', że stała się zła, może zostać Stracona. [-1 Sługus]",
+    "firstNight": 41,
+    "firstNightReminder": "The Seiren selects a player: mark them with the 'Turned' reminder, wake them, and inform them of their new alignment.",
+    "otherNight": 34,
+    "otherNightReminder": "The Seiren selects a player: mark them with the 'Turned' reminder, wake them, and inform them of their new alignment. The previously turned character dies; inform them that they are their previous alignment before the next day begins.",
+    "setup": true,
+    "team": "demon",
+    "reminders": ["Turned", "Dead"],
+    "jinxes": [
+      {
+        "id": "eviltwin",
+        "reason": "The Evil Twin's good player still counts as good for the purposes of the Evil Twin's ability when turned by the Seiren."
+      },
+      { "id": "monk", "reason": "The Monk's ability fails if they try to protect a player already turned evil by the Seiren. " }
+    ]
+  },
+  {
+    "id": "ein",
+    "image": ["http://menagerie.splittingpixels.com.au/images/eine.png", "http://menagerie.splittingpixels.com.au/images/eing.png"],
+    "firstNightReminder": "The Ein chooses a player. :reminder:",
+    "otherNightReminder": "The Ein chooses a player. :reminder:",
+    "reminders": ["Dead"],
+    "setup": true,
+    "name": "Ein",
+    "team": "demon",
+    "flavor": "Wer weiß? Der Teufel ist ein Eichhörnchen.",
+    "ability": "Każdej nocy*, wybierz gracza: umiera. Pierwszej nocy, wybierz gracza: zostaje zamieniony w Zwei. Jeśli obydwoje żyjecie w finałowej 3, Zło wygyrwa. [-1 Sługus]",
+    "firstNight": 32,
+    "otherNight": 37,
+    "jinxes": [
+      { "id": "scarletwoman", "reason": "If the Zwei lives and the Ein dies, the Zwei becomes the Demon." },
+      {
+        "id": "barber",
+        "reason": "If the Barber dies, only the Ein is asked if they wish to swap characters. They may swap with the Zwei."
+      }
+    ]
+  },
+  {
+    "id": "zwei",
+    "image": ["http://menagerie.splittingpixels.com.au/images/zwee.png", "http://menagerie.splittingpixels.com.au/images/zweg.png"],
+    "otherNightReminder": "If the Ein died today, wake the Zwei and inform them they are now the Ein.",
+    "reminders": ["Poisoned", "Poisoned"],
+    "special": [{ "name": "bag-disabled", "type": "selection" }],
+    "setup": false,
+    "name": "Zwei",
+    "team": "demon",
+    "flavor": "Anderenseites... Das Eichhörnchen ist ein Teufel.",
+    "ability": "Sąsiadujący z Tobą Mieszczanie zostają zatruci. Jeśli Ein umrze, stajesz się nowym Ein (Wykonalne raz na grę).",
+    "otherNight": 37.5,
+    "jinxes": [{ "id": "lunatic", "reason": "If Lunatic is a Zwei, they start seeing a Townsfolk or Outsider token." }]
+  }
+]

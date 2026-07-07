@@ -1,0 +1,21 @@
+{
+  "id": "NosicielPlagi",
+  "name": "Plaga",
+  "image": [
+    "https://www.mysafetysign.com/img/lg/I/biohazard-symbol-iso-circle-sign-is-1080.png",
+    "https://img.magnific.com/premium-vector/minimal-biohazard-spray-logo-excellent-logo-suitable-any-business_630290-598.jpg",
+    "https://img.magnific.com/premium-vector/vector-flat-icon-biohazard-symbol_574806-5678.jpg"
+  ],
+  "flavor": "Wirus zabija, kiedy go wywołać. Ale przestaje być letalny, kiedy dotknie zła.",
+  "ability": "Wybrany gracz dostaje zdolność Nosiciela Plagi. Tej nocy może (kolejnej: musi) zarazić kolejnego gracza, który dostaje tę zdolność. Za dnia dowolny żywy Zarażony może aktywować Plagę - zabije wszystkich Zarażonych, chyba że wśród Zarażonych jest Zły. [+0/+1 zdolności Odludka]",
+  "otherNight": 34,
+  "otherNightReminder": "",
+  "team": "fabled",
+  "reminders": ["infected", "infected", "infected", "infected", "infected", "infected", "infected"],
+  "jinxes": [
+    {
+      "id": "monk",
+      "reason": "Mnich chroni od śmierci Plagą"
+    }
+  ]
+}

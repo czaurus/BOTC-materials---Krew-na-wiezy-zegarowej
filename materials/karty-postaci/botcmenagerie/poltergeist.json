@@ -1,0 +1,18 @@
+{
+  "id": "polterghast",
+  "name": "Poltergheist",
+  "image": ["http://menagerie.splittingpixels.com.au/images/pole.png", "http://menagerie.splittingpixels.com.au/images/polg.png"],
+  "flavor": "'Over my dead body', you say? Well, if you insist.",
+  "ability_": "Each night*, choose a player: they die. Once per game, at night*, you may choose to register as dead & poison 1 Townsfolk neighbour.",
+  "ability": "Każdej nocy*, wybierz gracza: umiera. Raz na grę, w nocy*, możesz zdecydować, że chcesz rejestrować się jako martwy i zatruj 1 sąsiadującego z Tobą Mieszczanina .",
+  "otherNight": 34,
+  "otherNightReminder": "The Polterghast selects a player. They may also choose to use their ability to feign death. Give them the 'Play Dead' token and announce them as dead in the morning.",
+  "team": "demon",
+  "reminders": ["Dead", "Play Dead", "Poisoned"],
+  "jinxes": [
+    {
+      "id": "scarletwoman",
+      "reason": "If the Polterghast dies while registering as dead, the Scarlet Woman becomes the Polterghast whose ability has already been used."
+    }
+  ]
+}

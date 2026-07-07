@@ -1,0 +1,131 @@
+[
+	{
+		"id":"_meta",
+		"author":"",
+		"name":"Whalebuffet",
+		"bootlegger":[
+			"On the 1st night, all players choose a character (of their assigned character type) to become.",
+			"The Storyteller may offer you the chance to reconsider if they think your choice will be unfun for you or others. Evil learns which character(s) this happened for.",
+			"The Atheist, Engineer & Pit-Hag are banned. The Drunk, Lunatic and Marionette cannot be chosen.",
+			"Only a Demon may choose to become the Summoner. If so, the summoned player chooses which Demon they become.",
+			"If there is more than 1 of the same character, 1 or more of the extras might be drunk.",
+			"The only character with a setup effect that applies is the Bounty Hunter."
+		]
+	},
+	{
+		"id": "choose_your_own_tf",
+		"name": "Choose a Townsfolk",
+		"team": "townsfolk",
+		"ability": "On the 1st night, choose a Townsfolk character to become.",
+		"special": [
+		  {
+			"name": "bag-duplicate",
+			"type": "selection"
+		  },
+		  {
+			"type": "signal",
+			"name": "card",
+			"value": "Reconsider?"
+		  }
+		],
+		"remindersGlobal": [
+			"Drunk", "Drunk", "Drunk"
+		],
+		"firstNight": 1,
+		"firstNightReminder": "The Townsfolk player chooses a character."
+	},
+	"acrobat","alchemist","alsaahir","amnesiac","artist","balloonist","banshee","bountyhunter","cannibal","chambermaid","chef","choirboy","clockmaker","courtier","cultleader","dreamer","empath","exorcist","farmer","fisherman","flowergirl","fool","fortuneteller","gambler","general","gossip","grandmother","highpriestess","huntsman","innkeeper","investigator","juggler","king","knight","librarian","lycanthrope","magician","mathematician","mayor","minstrel","monk","nightwatchman","noble","oracle","pacifist","philosopher","pixie","poppygrower","preacher","professor","ravenkeeper","sage","sailor","savant","seamstress","shugenja","slayer","snakecharmer","soldier","steward","tealady","towncrier","undertaker","villageidiot","virgin","washerwoman",
+	{
+		"id": "choose_your_own_out",
+		"name": "Choose an Outsider",
+		"team": "outsider",
+		"ability": "On the 1st night, choose an Outsider character to become.",
+		"special": [
+		  {
+			"name": "bag-duplicate",
+			"type": "selection"
+		  },
+		  {
+			"type": "signal",
+			"name": "card",
+			"value": "Reconsider?"
+		  }
+		],
+		"remindersGlobal": [
+			"Drunk", "Drunk", "Drunk"
+		],
+		"firstNight": 1,
+		"firstNightReminder": "The Outsider player chooses a character."
+	},
+	"barber","butler","damsel","drunk","golem","goon","hatter","heretic","klutz","lunatic","moonchild","mutant","ogre","plaguedoctor","politician","puzzlemaster","recluse","saint","snitch","sweetheart","tinker","zealot",
+	{
+		"id": "choose_your_own_min",
+		"name": "Choose a Minion",
+		"team": "minion",
+		"ability": "On the 1st night, choose a Minion character to become.",
+		"special": [
+		  {
+			"name": "bag-duplicate",
+			"type": "selection"
+		  },
+		  {
+			"type": "signal",
+			"name": "card",
+			"value": "Reconsider?"
+		  }
+		],
+		"remindersGlobal": [
+			"Drunk", "Drunk", "Drunk"
+		],
+		"firstNight": 1,
+		"firstNightReminder": "The Minion player chooses a character."
+	},
+	"assassin","baron","boffin","boomdandy","cerenovus","devilsadvocate","eviltwin","fearmonger","goblin","godfather","harpy","marionette","mastermind","mezepheles","organgrinder","poisoner","psychopath","scarletwoman","spy","summoner","vizier","widow","witch","wizard","xaan",
+	{
+		"id": "choose_your_own_dem",
+		"name": "Choose a Demon",
+		"team": "demon",
+		"ability": "On the 1st night, choose a Demon character to become.",
+		"special": [
+		  {
+			"name": "bag-duplicate",
+			"type": "selection"
+		  },
+		  {
+			"type": "signal",
+			"name": "card",
+			"value": "Reconsider?"
+		  }
+		],
+		"remindersGlobal": [
+			"Drunk", "Drunk", "Drunk"
+		],
+		"firstNight": 1,
+		"firstNightReminder": "The Demon player chooses a character."
+	},
+	"alhadikhia","fanggu","imp","kazali","legion","leviathan","lilmonsta","lleech","lordoftyphon","nodashii","ojo","po","pukka","riot","shabaloth","vigormortis","vortox","yaggababble","zombuul",
+	{
+		"id": "choose_your_own_trv",
+		"name": "Choose a Traveller",
+		"team": "traveller",
+		"ability": "On the 1st night, choose a Traveller character to become.",
+		"special": [
+		  {
+			"name": "bag-duplicate",
+			"type": "selection"
+		  },
+		  {
+			"type": "signal",
+			"name": "card",
+			"value": "Reconsider?"
+		  }
+		],
+		"remindersGlobal": [
+			"Drunk", "Drunk", "Drunk"
+		],
+		"firstNight": 1,
+		"firstNightReminder": "The Traveller player chooses a character."
+	},
+	"bureaucrat","thief",
+	"sentinel"
+]

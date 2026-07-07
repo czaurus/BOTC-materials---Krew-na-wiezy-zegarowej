@@ -1,0 +1,18 @@
+{
+  "id": "ein",
+  "image": ["http://menagerie.splittingpixels.com.au/images/eine.png", "http://menagerie.splittingpixels.com.au/images/eing.png"],
+  "firstNightReminder": "The Ein chooses a player. :reminder:",
+  "otherNightReminder": "The Ein chooses a player. :reminder:",
+  "reminders": ["Dead"],
+  "setup": true,
+  "name": "Ein",
+  "team": "demon",
+  "flavor": "Wer weiß? Der Teufel ist ein Eichhörnchen.",
+  "ability": "Każdej nocy*, wybierz gracza: umiera. Pierwszej nocy, wybierz gracza: zostaje zamieniony w Zwei. Jeśli obydwoje żyjecie w finałowej 3, Zło wygyrwa. [-1 Sługus]",
+  "firstNight": 32,
+  "otherNight": 37,
+  "jinxes": [
+    { "id": "scarletwoman", "reason": "If the Zwei lives and the Ein dies, the Zwei becomes the Demon." },
+    { "id": "barber", "reason": "If the Barber dies, only the Ein is asked if they wish to swap characters. They may swap with the Zwei." }
+  ]
+}

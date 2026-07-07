@@ -1,0 +1,88 @@
+[
+  {
+    "id": "madscientist",
+    "name": "Mad Scientist",
+    "image": [
+      "http://menagerie.splittingpixels.com.au/images/sci.png",
+      "http://menagerie.splittingpixels.com.au/images/scig.png",
+      "http://menagerie.splittingpixels.com.au/images/scie.png"
+    ],
+    "flavor": "It's alive... it's alive!",
+    "ability": "Każdej* nocy wskaż martwego gracza. Będzie żywy i zatruty aż do zmierzchu (końca dnia).",
+    "setup": false,
+    "team": "traveler",
+    "otherNight": 8,
+    "otherNightReminder": "The Mad Scientist chooses a dead player. :reminder:",
+    "reminders": ["It's Alive!"]
+  },
+  {
+    "id": "parasitoid",
+    "name": "Pasożytoid",
+    "image": "https://menagerie.splittingpixels.com.au/images/parasite.png",
+    "team": "loric",
+    "setup": false,
+    "ability": "Pierwszej nocy poznajesz gracza. Na potrzeby rozpatrywania egzekucji i śmierci, siedzisz na jego miejscu.",
+    "flavor": "...While this creature feeds upon and grows inside the host creature, should the host be predated upon, the nematomorph is at risk of death.",
+    "firstNight": 1.5,
+    "firstNightReminder": "Assign a unique player to each seat, and send their name to the player sitting in that seat. In the event of an odd number of players, one player receives their own name."
+  },
+  {
+    "id": "NosicielPlagi",
+    "name": "Plaga",
+    "image": [
+      "https://www.mysafetysign.com/img/lg/I/biohazard-symbol-iso-circle-sign-is-1080.png",
+      "https://img.magnific.com/premium-vector/minimal-biohazard-spray-logo-excellent-logo-suitable-any-business_630290-598.jpg",
+      "https://img.magnific.com/premium-vector/vector-flat-icon-biohazard-symbol_574806-5678.jpg"
+    ],
+    "flavor": "Wirus zabija, kiedy go wywołać. Ale przestaje być letalny, kiedy dotknie zła.",
+    "ability": "Wybrany gracz dostaje zdolność Nosiciela Plagi. Tej nocy może (kolejnej: musi) zarazić kolejnego gracza, który dostaje tę zdolność. Za dnia dowolny żywy Zarażony może aktywować Plagę - zabije wszystkich Zarażonych, chyba że wśród Zarażonych jest Zły. [+0/+1 zdolności Odludka]",
+    "otherNight": 34,
+    "otherNightReminder": "",
+    "team": "fabled",
+    "reminders": ["infected", "infected", "infected", "infected", "infected", "infected", "infected"],
+    "jinxes": [
+      {
+        "id": "monk",
+        "reason": "Mnich chroni od śmierci Plagą"
+      }
+    ]
+  },
+  {
+    "id": "pyro",
+    "name": "Pyro",
+    "image": "http://menagerie.splittingpixels.com.au/images/Pyro2.png",
+    "team": "loric",
+    "setup": false,
+    "ability": "Nie ma nominacji. Na koniec każdego dnia, gracz, na którego wskazuje najwięcej osób, zostaje Stracony (Egzekucja). Martwi gracze, którzy wskazują na siebie, nie są liczeni.",
+    "special": [{ "type": "ability", "name": "pointing", "time": "day" }],
+    "flavor": "Papa! Look at the pretty colours in the sky! Wow, that was a big one! Oh... Mr. Morozov must have been tired - he's fallen asleep.",
+    "jinxes": [
+      { "id": "goblin", "reason": "The Goblin must publicly claim to be the Goblin before end of day, instead of during nominations." }
+    ]
+  },
+  {
+    "id": "suicidal_wizard",
+    "name": "Samobójstwo się opłaca",
+    "image": ["https://png.pngtree.com/png-vector/20260411/ourmid/pngtree-wizard-hat-magic-png-image_19092710.webp"],
+    "flavor": "Spełnij marzenie, zabij sam siebie xD",
+    "ability": "Gracz, który umrze od nominacji na samego siebie zostaje pośmiertnym Czarodziejem. (Bajarz może odmówić spełnienia życzenia, ale w zamian udziela informacji o grze).",
+    "otherNight": 34,
+    "otherNightReminder": "",
+    "team": "fabled",
+    "reminders": ["suicided", "is wizard", "wish used"],
+    "jinxes": []
+  },
+  {
+    "id": "taxidermist",
+    "name": "Wypychacz",
+    "image": [
+      "http://menagerie.splittingpixels.com.au/images/tax.png",
+      "http://menagerie.splittingpixels.com.au/images/taxg.png",
+      "http://menagerie.splittingpixels.com.au/images/taxe.png"
+    ],
+    "flavor": "The difference between the tax man and the taxidermist is that the taxidermist leaves the skin.",
+    "ability": "Martwe głosy mogą być używane do nominacji. Jeśli umrzesz (lub zostajesz wygnany lub wychodzisz), wybierz 1-3 graczy: odzyskają swój martwy głos.",
+    "setup": false,
+    "team": "traveler"
+  }
+]

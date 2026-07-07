@@ -1,0 +1,15 @@
+{
+  "id": "tactician",
+  "name": "Taktyk",
+  "image": [
+    "http://menagerie.splittingpixels.com.au/images/tac.png",
+    "http://menagerie.splittingpixels.com.au/images/tacg.png",
+    "http://menagerie.splittingpixels.com.au/images/tace.png"
+  ],
+  "flavor": "Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt.",
+  "ability": "Each night*, choose a player. You may give them advice: they learn this, and whether it will help your team win the game.",
+  "setup": false,
+  "team": "traveler",
+  "otherNight": 8,
+  "otherNightReminder": "The Tactician chooses a player and offers advice to the Storyteller. The Storyteller wakes that player, provides that advice, and gives a thumbs up or down."
+}

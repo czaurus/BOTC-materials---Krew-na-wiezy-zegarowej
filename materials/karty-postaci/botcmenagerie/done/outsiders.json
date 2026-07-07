@@ -1,0 +1,44 @@
+[
+  {
+    "id": "egotist",
+    "name": "Egotysta",
+    "image": ["http://menagerie.splittingpixels.com.au/images/egog.png", "http://menagerie.splittingpixels.com.au/images/egoe.png"],
+    "flavor": "How dare you? I'll have you know I am good friends with Baron Morozov - VERY good friends - and he can have you hanged for this. Who do you think you are? You know, you're awfully talkative for a lowly librarian. I bet you don't even read books. I've read over a hundred. Not to mention--",
+    "ability": "Jeden z Mieszczan, który głosował na Ciebie lub Cię nominował jest pijany (do najbliższego świtu). Nie możesz nominować sam siebie.",
+    "setup": false,
+    "team": "outsider",
+
+    "reminders": ["Drunk"]
+  },
+  {
+    "id": "fixer",
+    "name": "Fixer",
+    "image": ["http://menagerie.splittingpixels.com.au/images/doubg.png", "http://menagerie.splittingpixels.com.au/images/doube.png"],
+    "flavor": "Now listen here, bub. I've got five hundred bones on Morozov over there, so no funny stuff. Stick to the plan, and make sure he makes it out alive. If he goes down, we all go down. You get me?",
+    "ability": "Pierwszej nocy wybierz 3 graczy (nie siebie). Jeśli 2 z nich żyje w finałowej 3 - wygrywasz, nawet jako martwy. Jeśli któryś z nich zginie, możesz umrzeć w dowolnym momencie.",
+    "setup": false,
+    "team": "outsider",
+    "firstNight": 47,
+    "firstNightReminder": "The Fixer chooses 3 players.",
+    "reminders": ["Bet", "Bet", "Bet", "Dead"]
+  },
+  {
+    "id": "recordkeeper",
+    "name": "Archiwista",
+    "image": ["http://menagerie.splittingpixels.com.au/images/recg.png", "http://menagerie.splittingpixels.com.au/images/rece.png"],
+    "flavor": "You would be surprised as to what people are capable of when they think nobody is watching.",
+    "ability": "Jeśli zginiesz w wyniku Egzekucji, Demon w nocy zobaczy Grymuar.",
+    "otherNight": 29,
+    "otherNightReminder": "If the Record Keeper has died by execution today, show the Demon the Grimoire.",
+    "team": "outsider",
+    "reminders": ["Executed"],
+    "special": [{ "type": "signal", "name": "grimoire", "time": "night", "global": "demon" }],
+    "jinxes": [
+      { "id": "damsel", "reason": "If a Damsel is in play, they are drunk if the Record Keeper is executed." },
+      {
+        "id": "poppygrower",
+        "reason": "If the Poppy Grower is in play and the Record Keeper dies, the Demon does not see the Grimoire until the Poppy Grower dies."
+      }
+    ]
+  }
+]
