@@ -141,7 +141,20 @@
     "setup": false,
     "team": "minion"
   },
-  "marionette",
+  {
+    "id": "efreet",
+    "name": "Ifryt",
+    "image": ["http://menagerie.splittingpixels.com.au/images/efre.png", "http://menagerie.splittingpixels.com.au/images/efrg.png"],
+    "flavor": "You have outlived your usefulness. Make room for another.",
+    "ability": "Kiedy Sługus zostaje Stracony (inny niż Ty), staje się dobry, ale NIE dowiaduje się o tym (działa raz na grę). Wybierz gracza: Staje się zły (i dowiaduje się o tym). Możesz rejestrować się jako inny Sługus, nawet po śmierci.",
+    "otherNight": 20,
+    "otherNightReminder": "If a Minion was executed during the day and is marked with 'Turns Good', change their alignment but do not inform them. Wake the Efreet, and ask them to choose a player. If good, they turn evil. Inform that player of their alignment change.",
+    "team": "minion",
+    "reminders": ["Turns Good", "Turns Evil"]
+  },
+  "wraith",
+
+  "imp",
   {
     "id": "polterghast",
     "name": "Poltergheist",
@@ -213,17 +226,6 @@
     "reminders": ["It's Alive!"]
   },
   {
-    "id": "parasitoid",
-    "name": "Pasożytoid",
-    "image": "https://menagerie.splittingpixels.com.au/images/parasite.png",
-    "team": "loric",
-    "setup": false,
-    "ability": "Pierwszej nocy poznajesz gracza. Na potrzeby rozpatrywania egzekucji i śmierci, siedzisz na jego miejscu.",
-    "flavor": "...While this creature feeds upon and grows inside the host creature, should the host be predated upon, the nematomorph is at risk of death.",
-    "firstNight": 1.5,
-    "firstNightReminder": "Assign a unique player to each seat, and send their name to the player sitting in that seat. In the event of an odd number of players, one player receives their own name."
-  },
-  {
     "id": "NosicielPlagi",
     "name": "Plaga",
     "image": [
@@ -281,5 +283,27 @@
     "ability": "Martwe głosy mogą być używane do nominacji. Jeśli umrzesz (lub zostajesz wygnany lub wychodzisz), wybierz 1-3 graczy: odzyskają swój martwy głos.",
     "setup": false,
     "team": "traveler"
-  }
+  },
+  {
+    "id": "mercysociety",
+    "name": "Towarzystwo Miłosierdzia",
+    "image": ["http://menagerie.splittingpixels.com.au/images/peam.png"],
+    "flavor": "Inter arma caritas. Per humanitatem ad pacem. (Additional credit: Smokey & annwithaplan)",
+    "ability": "Każdej nocy jeden z graczy dowiaduje się, która strona, zdaniem Bajarza, wygrywa: dobra, zła, czy żadna. Pijani lub otruci gracze mogą otrzymać fałszywe informacje.",
+    "firstNight": 71,
+    "firstNightReminder": "Wake one player and show them the Mercy Society token, as well as a number from 1 to 5.",
+    "otherNight": 89,
+    "otherNightReminder": "Wake one player and show them the Mercy Society token, as well as a number from 1 to 5.",
+    "reminders": ["Learns Tonight"],
+    "setup": false,
+    "team": "fabled",
+    "jinxes": [
+      {
+        "id": "general",
+        "reason": "If the General is in play at the same time as the Mercy Society, evil learns that a General is in play. The General's information is false once per game."
+      }
+    ]
+  },
+  "undertaker",
+  "pixie"
 ]
