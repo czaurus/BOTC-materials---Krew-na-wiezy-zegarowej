@@ -2,9 +2,7 @@
   "id": "madscientist",
   "name": "Mad Scientist",
   "image": [
-    "http://menagerie.splittingpixels.com.au/images/sci.png",
-    "http://menagerie.splittingpixels.com.au/images/scig.png",
-    "http://menagerie.splittingpixels.com.au/images/scie.png"
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/mad_Scientist.png"
   ],
   "flavor": "It's alive... it's alive!",
   "ability": "Każdej* nocy wskaż martwego gracza. Będzie żywy i zatruty aż do zmierzchu (końca dnia).",
@@ -12,5 +10,7 @@
   "team": "traveler",
   "otherNight": 8,
   "otherNightReminder": "The Mad Scientist chooses a dead player. :reminder:",
-  "reminders": ["It's Alive!"]
+  "reminders": [
+    "It's Alive!"
+  ]
 }

@@ -1,14 +1,18 @@
 {
   "id": "mercysociety",
   "name": "Towarzystwo Miłosierdzia",
-  "image": ["http://menagerie.splittingpixels.com.au/images/peam.png"],
+  "image": [
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/mercy_society.png"
+  ],
   "flavor": "Inter arma caritas. Per humanitatem ad pacem. (Additional credit: Smokey & annwithaplan)",
   "ability": "Każdej nocy jeden z graczy dowiaduje się, która strona, zdaniem Bajarza, wygrywa: dobra, zła, czy żadna. Pijani lub otruci gracze mogą otrzymać fałszywe informacje.",
   "firstNight": 71,
   "firstNightReminder": "Wake one player and show them the Mercy Society token, as well as a number from 1 to 5.",
   "otherNight": 89,
   "otherNightReminder": "Wake one player and show them the Mercy Society token, as well as a number from 1 to 5.",
-  "reminders": ["Learns Tonight"],
+  "reminders": [
+    "Learns Tonight"
+  ],
   "setup": false,
   "team": "fabled",
   "jinxes": [

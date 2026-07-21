@@ -1,7 +1,9 @@
 {
   "id": "parasitoid",
   "name": "Pasożytoid",
-  "image": "https://menagerie.splittingpixels.com.au/images/parasite.png",
+  "image": [
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/parasitoid.png"
+  ],
   "team": "loric",
   "setup": false,
   "ability": "Pierwszej nocy poznajesz gracza. Na potrzeby rozpatrywania egzekucji i śmierci, siedzisz na jego miejscu.",

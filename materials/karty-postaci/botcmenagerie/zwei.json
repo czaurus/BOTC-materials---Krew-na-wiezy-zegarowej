@@ -1,14 +1,29 @@
 {
   "id": "zwei",
-  "image": ["http://menagerie.splittingpixels.com.au/images/zwee.png", "http://menagerie.splittingpixels.com.au/images/zweg.png"],
+  "image": [
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/zwei.png"
+  ],
   "otherNightReminder": "If the Ein died today, wake the Zwei and inform them they are now the Ein.",
-  "reminders": ["Poisoned", "Poisoned"],
-  "special": [{ "name": "bag-disabled", "type": "selection" }],
+  "reminders": [
+    "Poisoned",
+    "Poisoned"
+  ],
+  "special": [
+    {
+      "name": "bag-disabled",
+      "type": "selection"
+    }
+  ],
   "setup": false,
   "name": "Zwei",
   "team": "demon",
   "flavor": "Anderenseites... Das Eichhörnchen ist ein Teufel.",
   "ability": "Sąsiadujący z Tobą Mieszczanie zostają zatruci. Jeśli Ein umrze, stajesz się nowym Ein (Wykonalne raz na grę).",
   "otherNight": 37.5,
-  "jinxes": [{ "id": "lunatic", "reason": "If Lunatic is a Zwei, they start seeing a Townsfolk or Outsider token." }]
+  "jinxes": [
+    {
+      "id": "lunatic",
+      "reason": "If Lunatic is a Zwei, they start seeing a Townsfolk or Outsider token."
+    }
+  ]
 }

@@ -1,7 +1,9 @@
 {
   "id": "guardian",
   "name": "Strażnik",
-  "image": ["http://menagerie.splittingpixels.com.au/images/guag.png", "http://menagerie.splittingpixels.com.au/images/guae.png"],
+  "image": [
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/guardian.png"
+  ],
   "flavor": "Ahakoa he iti, he pounamu.",
   "ability": "Każdej nocy poznajesz gracza. Od 2 nocy wybierz gracza (nie siebie). Jeśli Demon go zabije, dowiesz się czy Demon jest wśród 'poznanych' graczy.",
   "firstNight": 37,
@@ -10,11 +12,5 @@
   "otherNightReminder": "Show the Guardian one player. Mark that player with the *Known* token. :reminder: Ask the Guardian to pick a player. If that player was chosen by the Demon, nod or shake your head.",
   "setup": false,
   "team": "townsfolk",
-  "reminders": [
-    "Known",
-    "Known",
-    "Known",
-    "Known",
-    "Learns Tonight"
-  ]
+  "reminders": ["Known", "Known", "Known", "Known", "Learns Tonight"]
 }

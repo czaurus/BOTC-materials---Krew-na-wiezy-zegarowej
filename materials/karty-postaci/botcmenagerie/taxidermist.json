@@ -2,9 +2,7 @@
   "id": "taxidermist",
   "name": "Wypychacz",
   "image": [
-    "http://menagerie.splittingpixels.com.au/images/tax.png",
-    "http://menagerie.splittingpixels.com.au/images/taxg.png",
-    "http://menagerie.splittingpixels.com.au/images/taxe.png"
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/taxidermist.png"
   ],
   "flavor": "The difference between the tax man and the taxidermist is that the taxidermist leaves the skin.",
   "ability": "Martwe głosy mogą być używane do nominacji. Jeśli umrzesz (lub zostajesz wygnany lub wychodzisz), wybierz 1-3 graczy: odzyskają swój martwy głos.",

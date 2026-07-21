@@ -1,16 +1,30 @@
 {
   "id": "recordkeeper",
   "name": "Archiwista",
-  "image": ["http://menagerie.splittingpixels.com.au/images/recg.png", "http://menagerie.splittingpixels.com.au/images/rece.png"],
+  "image": [
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/record_keeper.png"
+  ],
   "flavor": "You would be surprised as to what people are capable of when they think nobody is watching.",
   "ability": "Jeśli zginiesz w wyniku Egzekucji, Demon w nocy zobaczy Grymuar.",
   "otherNight": 29,
   "otherNightReminder": "If the Record Keeper has died by execution today, show the Demon the Grimoire.",
   "team": "outsider",
-  "reminders": ["Executed"],
-  "special": [{ "type": "signal", "name": "grimoire", "time": "night", "global": "demon" }],
+  "reminders": [
+    "Executed"
+  ],
+  "special": [
+    {
+      "type": "signal",
+      "name": "grimoire",
+      "time": "night",
+      "global": "demon"
+    }
+  ],
   "jinxes": [
-    { "id": "damsel", "reason": "If a Damsel is in play, they are drunk if the Record Keeper is executed." },
+    {
+      "id": "damsel",
+      "reason": "If a Damsel is in play, they are drunk if the Record Keeper is executed."
+    },
     {
       "id": "poppygrower",
       "reason": "If the Poppy Grower is in play and the Record Keeper dies, the Demon does not see the Grimoire until the Poppy Grower dies."

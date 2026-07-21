@@ -1,13 +1,24 @@
 {
   "id": "pyro",
   "name": "Pyro",
-  "image": "http://menagerie.splittingpixels.com.au/images/Pyro2.png",
+  "image": [
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/pyro.png"
+  ],
   "team": "loric",
   "setup": false,
   "ability": "Nie ma nominacji. Na koniec każdego dnia, gracz, na którego wskazuje najwięcej osób, zostaje Stracony (Egzekucja). Martwi gracze, którzy wskazują na siebie, nie są liczeni.",
-  "special": [{ "type": "ability", "name": "pointing", "time": "day" }],
+  "special": [
+    {
+      "type": "ability",
+      "name": "pointing",
+      "time": "day"
+    }
+  ],
   "flavor": "Papa! Look at the pretty colours in the sky! Wow, that was a big one! Oh... Mr. Morozov must have been tired - he's fallen asleep.",
   "jinxes": [
-    { "id": "goblin", "reason": "The Goblin must publicly claim to be the Goblin before end of day, instead of during nominations." }
+    {
+      "id": "goblin",
+      "reason": "The Goblin must publicly claim to be the Goblin before end of day, instead of during nominations."
+    }
   ]
 }

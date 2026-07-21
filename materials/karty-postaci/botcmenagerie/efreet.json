@@ -1,11 +1,16 @@
 {
   "id": "efreet",
   "name": "Ifryt",
-  "image": ["http://menagerie.splittingpixels.com.au/images/efre.png", "http://menagerie.splittingpixels.com.au/images/efrg.png"],
+  "image": [
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/efreet.png"
+  ],
   "flavor": "You have outlived your usefulness. Make room for another.",
   "ability": "Kiedy Sługus po raz pierwszy ginie od Egzekucji (inny niż Ty), staje się dobry, ale NIE dowiaduje się o tym. Wybierz gracza: Staje się zły (i dowiaduje się o tym). Możesz rejestrować się jako inny Sługus, nawet po śmierci.",
   "otherNight": 20,
   "otherNightReminder": "If a Minion was executed during the day and is marked with 'Turns Good', change their alignment but do not inform them. Wake the Efreet, and ask them to choose a player. If good, they turn evil. Inform that player of their alignment change.",
   "team": "minion",
-  "reminders": ["Turns Good", "Turns Evil"]
+  "reminders": [
+    "Turns Good",
+    "Turns Evil"
+  ]
 }

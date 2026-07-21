@@ -1,12 +1,19 @@
 {
   "id": "fixer",
   "name": "Fixer",
-  "image": ["http://menagerie.splittingpixels.com.au/images/doubg.png", "http://menagerie.splittingpixels.com.au/images/doube.png"],
+  "image": [
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/fixer.png"
+  ],
   "flavor": "Now listen here, bub. I've got five hundred bones on Morozov over there, so no funny stuff. Stick to the plan, and make sure he makes it out alive. If he goes down, we all go down. You get me?",
   "ability": "Pierwszej nocy wybierz 3 graczy (nie siebie). Jeśli 2 z nich żyje w finałowej 3 - wygrywasz, nawet jako martwy. Jeśli któryś z nich zginie, możesz umrzeć w dowolnym momencie.",
   "setup": false,
   "team": "outsider",
   "firstNight": 47,
   "firstNightReminder": "The Fixer chooses 3 players.",
-  "reminders": ["Bet", "Bet", "Bet", "Dead"]
+  "reminders": [
+    "Bet",
+    "Bet",
+    "Bet",
+    "Dead"
+  ]
 }

@@ -2,9 +2,7 @@
   "id": "tactician",
   "name": "Taktyk",
   "image": [
-    "http://menagerie.splittingpixels.com.au/images/tac.png",
-    "http://menagerie.splittingpixels.com.au/images/tacg.png",
-    "http://menagerie.splittingpixels.com.au/images/tace.png"
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/tactician.png"
   ],
   "flavor": "Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt.",
   "ability": "Each night*, choose a player. You may give them advice: they learn this, and whether it will help your team win the game.",

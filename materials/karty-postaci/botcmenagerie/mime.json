@@ -1,12 +1,16 @@
 {
   "id": "mime",
   "name": "Mim",
-  "image": ["http://menagerie.splittingpixels.com.au/images/mimg.png", "http://menagerie.splittingpixels.com.au/images/mime.png"],
+  "image": [
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/mime.png"
+  ],
   "flavor": "...! ...? ...?! ...! ...!",
   "ability": "Jeśli za dnia szalejesz, że jesteś którąś dobrą postacią, w nocy dowiesz się czy ta postać jest w grze.",
   "otherNight": 64,
   "otherNightReminder": "If the Mime was successful during the day, wake them and nod or shake your head, depending on whether the role is in play.",
   "setup": false,
   "team": "townsfolk",
-  "reminders": ["...!"]
+  "reminders": [
+    "...!"
+  ]
 }

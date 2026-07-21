@@ -1,11 +1,17 @@
 {
   "id": "gerrymanderer",
   "name": "Manipulant wyborczy",
-  "image": ["http://menagerie.splittingpixels.com.au/images/gere.png", "http://menagerie.splittingpixels.com.au/images/gerg.png"],
+  "image": [
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/gerrymanderer.png"
+  ],
   "flavor": "Stand up, and let every voice be heard! Mine especially.",
   "ability": "Jeśli żyje 5 lub więcej graczy, oraz przynajmniej 3 nominacje nie przeszły (za mało, żeby była Egzekucja), w nocy wskaż gracza: umrze. <eng. gerrymanderer>",
   "otherNight": 33,
   "otherNightReminder": "If the Gerrymanderer has the ‘Democracy Manifest’ reminder reminder token, wake the Gerrymanderer; they select a player.",
   "team": "minion",
-  "reminders": ["Failed 1st", "Failed 2nd", "Democracy Manifest"]
+  "reminders": [
+    "Failed 1st",
+    "Failed 2nd",
+    "Democracy Manifest"
+  ]
 }

@@ -1,9 +1,13 @@
 {
   "id": "ein",
-  "image": ["http://menagerie.splittingpixels.com.au/images/eine.png", "http://menagerie.splittingpixels.com.au/images/eing.png"],
+  "image": [
+    "https://raw.githubusercontent.com/czaurus/BOTC-materials---Krew-na-wiezy-zegarowej/refs/heads/master/materials/karty-postaci/botcmenagerie/assets/ein.png"
+  ],
   "firstNightReminder": "The Ein chooses a player. :reminder:",
   "otherNightReminder": "The Ein chooses a player. :reminder:",
-  "reminders": ["Dead"],
+  "reminders": [
+    "Dead"
+  ],
   "setup": true,
   "name": "Ein",
   "team": "demon",
@@ -12,7 +16,13 @@
   "firstNight": 32,
   "otherNight": 37,
   "jinxes": [
-    { "id": "scarletwoman", "reason": "If the Zwei lives and the Ein dies, the Zwei becomes the Demon." },
-    { "id": "barber", "reason": "If the Barber dies, only the Ein is asked if they wish to swap characters. They may swap with the Zwei." }
+    {
+      "id": "scarletwoman",
+      "reason": "If the Zwei lives and the Ein dies, the Zwei becomes the Demon."
+    },
+    {
+      "id": "barber",
+      "reason": "If the Barber dies, only the Ein is asked if they wish to swap characters. They may swap with the Zwei."
+    }
   ]
 }
