@@ -12,6 +12,23 @@
     "reminders": ["Duplicated", "Knows"]
   },
   {
+    "id": "conspiracist",
+    "name": "Konspirator",
+    "image": ["http://menagerie.splittingpixels.com.au/images/conspg.png", "http://menagerie.splittingpixels.com.au/images/conspe.png"],
+    "flavor": "Don’t you see? Don’t you see it? Look at the connections! Just look! It’s so obvious. If we assume that Mister Morozov is– no, wait… this goes deeper. This goes all the way to the top! I knew it all along!",
+    "ability": "Zaczynasz grę znając 1 gracza. Jeśli szalejesz, że jest zły, kiedy umrze - poznasz jego przynależność i jego żyjącego sąsiada. Jeśli przyznasz, że jesteś Konspiratorem, tracisz zdolność.",
+    "firstNight": 37,
+    "firstNightReminder": "Give the Conspiracist a player's name; give that player the *Hunch* token. :reminder:",
+    "otherNight": 55,
+    "otherNightReminder": "If the marked player has died today or tonight, mark the Conspiracist with the *Knew All Along* token :reminder:: they learn that player's alignment, and that of one living neighbour.",
+    "setup": true,
+    "team": "townsfolk",
+    "reminders": ["znany", "", "Neighbour"],
+    "jinxes": [
+      { "id": "harpy", "reason": "If the Harpy makes the Conspiracist mad at another player, the Conspiracist must be mad at both." }
+    ]
+  },
+  {
     "id": "egotist",
     "name": "Egotysta",
     "image": ["http://menagerie.splittingpixels.com.au/images/egog.png", "http://menagerie.splittingpixels.com.au/images/egoe.png"],
